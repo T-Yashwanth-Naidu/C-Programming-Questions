@@ -1,0 +1,3 @@
+Problem: Repeated Substring Pattern.
+WTD: Determine if a given string can be constructed by taking a substring of it and appending multiple copies of the substring together.
+e.g.: I/P: "abab", O/P: True (Because "ab" is repeated)

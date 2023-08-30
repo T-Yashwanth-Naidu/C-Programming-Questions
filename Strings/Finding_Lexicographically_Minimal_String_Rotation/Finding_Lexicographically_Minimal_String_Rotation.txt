@@ -1,0 +1,3 @@
+Problem: Find Lexicographically Minimal Rotation.
+WTD: Determine the lexicographically smallest rotation of a string.
+e.g.: I/P: "dacb", O/P: "acbd"

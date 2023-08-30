@@ -1,0 +1,3 @@
+Problem: Maximum Occurring Character.
+WTD: Determine which character in a string appears the most times.
+e.g.: I/P: "success", O/P: "s"

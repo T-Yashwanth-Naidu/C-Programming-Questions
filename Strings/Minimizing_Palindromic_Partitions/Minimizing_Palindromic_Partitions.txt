@@ -1,0 +1,3 @@
+Problem: Palindrome Partitioning.
+WTD: Partition a string such that every substring of the partition is a palindrome.
+e.g.: I/P: "aab", O/P: 1 (The string can be split as ["aa","b"])

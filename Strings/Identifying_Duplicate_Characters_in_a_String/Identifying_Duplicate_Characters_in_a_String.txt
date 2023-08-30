@@ -1,0 +1,3 @@
+Problem: Print Duplicate characters from a string.
+WTD: Traverse through the given string and identify characters that appear more than once.
+e.g.: I/P: "apple", O/P: "p"

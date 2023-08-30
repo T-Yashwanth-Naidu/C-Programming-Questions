@@ -1,0 +1,3 @@
+Problem: Print the first non-repeated character from a string.
+WTD: Examine the string and pinpoint the very first character that doesn't repeat elsewhere in the string.
+e.g.: I/P: "swiss", O/P: "w"

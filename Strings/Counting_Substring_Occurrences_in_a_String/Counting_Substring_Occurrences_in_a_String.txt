@@ -1,0 +1,3 @@
+Problem: Substring Count.
+WTD: Find out how many times a particular substring appears in the given string.
+e.g.: I/P: Main String: "banana", Substring: "ana", O/P: "1"

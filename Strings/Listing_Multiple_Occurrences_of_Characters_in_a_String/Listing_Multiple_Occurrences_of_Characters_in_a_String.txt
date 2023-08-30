@@ -1,0 +1,3 @@
+Problem: Duplicate characters found in a string.
+WTD: Spot all characters in the string that appear more than once and list them.
+e.g.: I/P: "programming", O/P: "r", "g", "m"

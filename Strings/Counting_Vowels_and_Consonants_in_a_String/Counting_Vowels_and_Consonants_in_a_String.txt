@@ -1,0 +1,3 @@
+Problem: Count the number of vowels and constants in a given string.
+WTD: Tally the number of vowel and consonant characters in the given string.
+e.g.: I/P: "apple", O/P: Vowels: 2, Consonants: 3

@@ -1,0 +1,3 @@
+Problem: Count the occurrences of a given character in a string.
+WTD: Count how many times a specified character appears in a given string.
+e.g.: I/P: "apple", Char: 'p', O/P: "2"

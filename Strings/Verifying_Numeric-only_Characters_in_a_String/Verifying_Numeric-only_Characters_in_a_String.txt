@@ -1,0 +1,3 @@
+Problem: Check if the string contains only digits.
+WTD: Determine if all characters in the provided string are numeric digits.
+e.g.: I/P: "1234a", O/P: "False"

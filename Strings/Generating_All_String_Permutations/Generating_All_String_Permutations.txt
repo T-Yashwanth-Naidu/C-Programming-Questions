@@ -1,0 +1,3 @@
+Problem: Find all permutations of a string.
+WTD: Generate all possible arrangements of the characters from the given string.
+e.g.: I/P: "ab", O/P: "ab", "ba"

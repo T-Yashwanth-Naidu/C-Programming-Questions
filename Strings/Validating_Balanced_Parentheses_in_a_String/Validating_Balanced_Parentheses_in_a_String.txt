@@ -1,0 +1,3 @@
+Problem: Check if a string has balanced parentheses.
+WTD: Ensure that for every opening bracket, parenthesis, or brace in the string, there's a corresponding closing counterpart, and they are correctly nested.
+e.g.: I/P: "()[{}]", O/P: "True"

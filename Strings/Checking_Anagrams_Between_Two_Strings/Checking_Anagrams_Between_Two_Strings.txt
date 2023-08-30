@@ -1,0 +1,4 @@
+Check for Pangram
+
+WTD: Determine if the given string contains every letter of the alphabet at least once. For instance, "The quick brown fox jumps over a lazy dog" is a pangram.
+(e.g.: I/P: "Jinxed wizards pluck ivy from the big quilt"; O/P: True)

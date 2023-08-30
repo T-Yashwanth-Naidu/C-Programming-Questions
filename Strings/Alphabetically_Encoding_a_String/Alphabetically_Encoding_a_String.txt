@@ -1,0 +1,3 @@
+Problem: String Encoding.
+WTD: : Encode a string by replacing each character with the third character after it in the alphabet. Wrap around to the start of the alphabet after 'z'.
+e.g.: I/P: "abc", O/P: "def"

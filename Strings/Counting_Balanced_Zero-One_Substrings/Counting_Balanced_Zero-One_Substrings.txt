@@ -1,0 +1,3 @@
+Problem: Count Substrings with Equal 0s and 1s.
+WTD: Given a binary string, count the number of substrings that have an equal number of 0s and 1s. For "0011", the answer is 4: "00", "11", "0011", and "01".
+e.g.: I/P: "0101", O/P: 4

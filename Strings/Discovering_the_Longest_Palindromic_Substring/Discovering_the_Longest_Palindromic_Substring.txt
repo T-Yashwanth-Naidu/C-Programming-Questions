@@ -1,0 +1,3 @@
+Problem: Find the longest palindrome substring in a given string.
+WTD: Find the length of the longest substring without repeating characters. For "abcabcbb", the answer would be 3, because the longest substring without repeating letters is "abc".
+(e.g.: I/P: "pwwkew"; O/P: 3)

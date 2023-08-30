@@ -1,0 +1,3 @@
+Problem: Convert a string to its integer representation without using any built-in functions.
+WTD: Transform a given string of numeric characters into its corresponding integer representation without relying on built-in methods.
+e.g.: I/P: "1234", O/P: 1234

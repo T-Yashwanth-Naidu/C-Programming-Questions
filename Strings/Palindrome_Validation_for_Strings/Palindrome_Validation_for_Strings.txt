@@ -1,0 +1,3 @@
+Problem: Check if a given string is a palindrome.
+WTD: Ascertain if the provided string reads the same forwards and backwards.
+e.g.: I/P: "radar", O/P: "True"
