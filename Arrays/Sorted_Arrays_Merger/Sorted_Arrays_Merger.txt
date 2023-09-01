@@ -1,0 +1,5 @@
+Merge two sorted arrays to produce one sorted array.
+
+WTD: Sequentially compare the elements of two sorted arrays, combining them into a single array that remains sorted.
+
+(e.g.: I/P: [1,3,5], [2,4,6], O/P: [1,2,3,4,5,6] )

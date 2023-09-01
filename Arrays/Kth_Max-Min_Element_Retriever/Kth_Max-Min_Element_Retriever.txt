@@ -1,0 +1,5 @@
+Find the "Kth" max and min element of an array.
+
+WTD: Sort the array and retrieve the kth largest and kth smallest numbers.
+
+(e.g.: I/P: [7, 10, 4, 3, 20, 15], K=3, O/P: 7 )

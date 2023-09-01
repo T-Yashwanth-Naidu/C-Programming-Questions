@@ -1,0 +1,5 @@
+Find the peak element in an array (greater than or equal to its neighbors).
+
+WTD: Scrutinize the array to find an element that is both larger than its predecessor and its successor.
+
+(e.g.: I/P: [1, 3, 20, 4, 1, 0], O/P: 20 )

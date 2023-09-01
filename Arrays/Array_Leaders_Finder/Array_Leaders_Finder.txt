@@ -1,0 +1,5 @@
+Compute the leaders in an array.
+
+WTD: Traverse the array from right to left, finding numbers that remain the largest compared to all numbers on their right.
+
+(e.g.: I/P: [16,17,4,3,5,2], O/P: [17,5,2])

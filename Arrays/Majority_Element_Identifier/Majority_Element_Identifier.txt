@@ -1,0 +1,5 @@
+Find the majority element in an array (appears more than n/2 times).
+
+WTD: Traverse the array and maintain a count of each number. Identify if there's any number that appears more than half the length of the array.
+
+(e.g.: I/P: [3,3,4,2,4,4,2,4,4], O/P: 4 )

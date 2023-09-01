@@ -1,0 +1,5 @@
+Count occurrences of a number in a sorted array.
+
+WTD: For a given number and a sorted array, iterate through the array to count the number of times that particular number appears.
+
+(e.g.: I/P: [1, 2, 2, 2, 3], 2, O/P: 3 )

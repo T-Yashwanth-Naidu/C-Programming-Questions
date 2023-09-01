@@ -1,0 +1,5 @@
+Find the two repeating elements in a given array.
+
+WTD: Investigate the array and find two numbers that each appear more than once.
+
+(e.g.: I/P: [4, 2, 4, 5, 2, 3, 1], O/P: [4,2] )

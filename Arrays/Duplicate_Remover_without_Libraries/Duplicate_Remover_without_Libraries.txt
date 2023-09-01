@@ -1,0 +1,5 @@
+Remove duplicates from an array without using any library.
+
+WTD: Navigate through the array, identifying and removing any repetitive occurrences of numbers, ensuring each number appears only once.
+
+(e.g.: I/P: [1,1,2,2,3,4,4], O/P: [1,2,3,4])

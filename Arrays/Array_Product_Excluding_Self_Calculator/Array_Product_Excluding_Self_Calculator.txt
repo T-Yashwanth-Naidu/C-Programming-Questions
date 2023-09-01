@@ -1,0 +1,5 @@
+Compute the product of an array except self. 
+
+WTD: For every index in the array, calculate the product of all numbers except for the number at that index.
+
+(e.g.: I/P: [1,2,3,4], O/P: [24,12,8,6])

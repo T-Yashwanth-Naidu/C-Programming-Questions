@@ -1,0 +1,5 @@
+Find the longest consecutive subsequence in an array.
+
+WTD: Examine the array to find the longest stretch of numbers that appear in increasing consecutive order.
+
+(e.g.: I/P: [1, 9, 3, 10, 4, 20, 2], O/P: [1, 2, 3, 4] )

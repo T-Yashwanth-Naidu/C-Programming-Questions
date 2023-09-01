@@ -1,0 +1,5 @@
+Rearrange array such that arr[i] becomes arr[arr[i]].
+
+WTD: Transform the array such that the number at each index corresponds to the number found at the index from the original array specified by the current number.
+
+(e.g.: I/P: [0, 1, 2, 3], O/P: [0, 1, 2, 3])

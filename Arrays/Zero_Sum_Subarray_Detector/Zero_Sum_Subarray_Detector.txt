@@ -1,0 +1,5 @@
+Find if there's a subarray with zero sum.
+
+WTD: Explore the array's subarrays (subsets of consecutive elements) to determine if there exists any subarray that sums up to zero.
+
+(e.g.: I/P: [4, 2, -3, 1, 6], O/P: True )

@@ -1,0 +1,5 @@
+Find the largest and smallest number in an unsorted integer array.
+
+WTD: Navigate through the elements of the unsorted array, continuously updating the largest and smallest values found to identify the extremities in the array.
+
+(e.g.: I/P: [34, 15, 88, 2], O/P: Max: 88, Min: 2 )

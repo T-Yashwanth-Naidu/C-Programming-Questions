@@ -1,0 +1,5 @@
+Move all zeros to the left of an array while maintaining the order of other numbers.
+
+WTD: Reorder the array by moving all zero values to the leftmost positions while ensuring the relative order of the non-zero numbers remains unchanged.
+
+(e.g.: I/P: [1,2,0,4,3,0,5,0], O/P: [0,0,0,1,2,4,3,5] )

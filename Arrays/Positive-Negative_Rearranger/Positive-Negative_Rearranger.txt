@@ -1,0 +1,5 @@
+Rearrange positive and negative numbers in an array.
+
+WTD: Sort the array such that all the positive numbers appear before the negative ones, while maintaining their original sequence.
+
+(e.g.: I/P: [-1, 2, -3, 4, 5, 6, -7, 8, 9], O/P: [4,-3,5,-1,6,-7,2,8,9] )

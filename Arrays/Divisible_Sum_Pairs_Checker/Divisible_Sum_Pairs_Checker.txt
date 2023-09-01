@@ -1,0 +1,5 @@
+Find if an array can be divided into pairs whose sum is divisible by k.
+
+WTD: Examine the array to see if it can be segmented into pairs such that the sum of each pair's numbers is divisible by a specific number, k.
+
+(e.g.: I/P: [9, 7, 5, -3], k=6, O/P: True)

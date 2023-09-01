@@ -1,0 +1,5 @@
+Rotate an array to the right by k steps.
+
+WTD: Modify the array by moving its elements to the right, wrapping them around when they reach the end, for a specified number of steps.
+
+(e.g.: I/P: [1,2,3,4,5], k=2, O/P: [4,5,1,2,3] )

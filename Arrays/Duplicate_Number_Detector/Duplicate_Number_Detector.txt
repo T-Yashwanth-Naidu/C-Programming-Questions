@@ -1,0 +1,3 @@
+Find the duplicate number on a given integer array.
+
+WTD: Inspect the provided array. Determine if there's any integer that appears more frequently than it should, signifying a duplicate.
