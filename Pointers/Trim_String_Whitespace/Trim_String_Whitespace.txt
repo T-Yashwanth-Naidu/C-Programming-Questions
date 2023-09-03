@@ -1,0 +1,5 @@
+Write a function that trims leading and trailing whitespace from a string using pointers.
+
+WTD: Use two pointers to find the first and last non-whitespace characters. Move characters to trim the string
+
+(e.g.: I/P: " Hello World " ,O/P: "Hello World" )

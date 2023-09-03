@@ -1,0 +1,5 @@
+ Implement a program that finds the first non-repeated character in a string using pointers.
+
+WTD: Use a fixed-size array to count occurrences. Traverse the string twice: first to count and then to find the non-repeated character.
+
+(e.g.: I/P: "swiss" ,O/P: 'w' )

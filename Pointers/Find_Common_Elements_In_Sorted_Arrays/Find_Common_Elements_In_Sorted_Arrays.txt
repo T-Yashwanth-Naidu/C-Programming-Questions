@@ -1,0 +1,5 @@
+Implement a function that finds the common elements in three sorted arrays using pointers.
+
+WTD: Use three pointers. Move the pointer pointing to the smallest value until all three pointers point to the same value or the end is reached.
+
+(e.g.: I/P: int arr1[] = {1,5,10,20,40,80}, arr2[] = {6,7,20,80,100}, arr3[] = {3,4,15,20,30,70,80,120} ,O/P:{20,80} )

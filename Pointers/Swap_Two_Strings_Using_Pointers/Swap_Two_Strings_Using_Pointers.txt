@@ -1,0 +1,5 @@
+ Implement a program that swaps two strings using pointers to pointers.
+
+WTD: Use a pointer to pointer to swap the base addresses of the two strings.
+
+(e.g.: I/P: char *str1 = "hello", *str2 = "world" ,O/P: str1 = "world", str2 = "hello" )

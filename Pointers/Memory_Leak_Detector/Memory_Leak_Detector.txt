@@ -1,0 +1,5 @@
+Implement a custom memory allocator and deallocator. Track allocations and deallocations to detect memory leaks using pointers.
+
+WTD:  Implement custom allocation and deallocation functions. Maintain a list of allocated blocks. On deallocation, remove from the list. At the end, non-deallocated blocks are leaks.
+
+(e.g.: I/P: Allocate 5 blocks, deallocate 4 blocks ; O/P: 1 block not deallocated)

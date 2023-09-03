@@ -1,0 +1,5 @@
+Create a program that flattens a 2D array into a 1D array using pointers.
+
+WTD:  Use nested loops (or equivalent pointer arithmetic) to traverse the 2D array and copy each element to the 1D array.
+
+(I/P: int arr[][] = {{1,2},{3,4}} ,O/P:{1,2,3,4} )

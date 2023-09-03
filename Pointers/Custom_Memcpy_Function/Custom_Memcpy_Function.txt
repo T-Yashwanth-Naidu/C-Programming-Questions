@@ -1,0 +1,5 @@
+Design a function similar to memcpy() that copies memory areas using pointers.
+
+WTD: Use pointers to traverse both the source and destination and copy each byte.
+
+(e.g.: I/P: Source = "hello", Destination (empty buffer), Length = 5 ; O/P: Destination = "hello")

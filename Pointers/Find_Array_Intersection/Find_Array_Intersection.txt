@@ -1,0 +1,5 @@
+ Design a function that uses pointers to find the intersection of two arrays.
+
+WTD:  If the arrays are sorted, use two pointers to traverse and find common elements. If not, use a hash table for one array and search for elements of the other.
+
+(e.g.: I/P: int arr1[] = {1,2,3,4}, arr2[] = {3,4,5,6} ,O/P: {3,4} )

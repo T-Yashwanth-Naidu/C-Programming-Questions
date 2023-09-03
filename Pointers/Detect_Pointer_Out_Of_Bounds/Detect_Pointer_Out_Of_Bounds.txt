@@ -1,0 +1,5 @@
+Implement a function that detects if a pointer has gone out of bounds of an array.
+
+WTD: Compare the pointer with the address of the first and past-the-last elements of the array.
+
+(e.g.: I/P: Array = {1,2,3,4,5}, Pointer pointing after last element ; O/P: Out of bounds)

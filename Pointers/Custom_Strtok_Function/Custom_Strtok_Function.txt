@@ -1,0 +1,5 @@
+Implement a custom strtok() function using pointers that splits a string based on a delimiter.
+
+WTD:  Use pointers to traverse the string. When the delimiter is found, replace it with '\0' and return the start of the token.
+
+(e.g.: I/P: String = "embedded,systems,linux", Delimiter = "," ; O/P: "embedded", "systems", "linux")

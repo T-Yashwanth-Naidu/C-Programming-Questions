@@ -1,0 +1,5 @@
+Design a program that finds the length of a linked list using double pointers.
+
+WTD: Use a double pointer (or two pointers) technique. Move one pointer twice as fast as the other. When the faster one reaches the end, the slower one will be halfway.
+
+(e.g.: I/P:1->2->3->4->5 ,O/P:5 )

@@ -1,0 +1,5 @@
+Design a program to concatenate two strings without using standard library functions, only pointers.
+
+WTD: Traverse the first string till the end and then copy the second string from that point.
+
+(e.g.: I/P: char *str1 = "Good ", *str2 = "Morning" ,O/P: "Good Morning" )

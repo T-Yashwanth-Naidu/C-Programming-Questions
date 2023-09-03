@@ -1,0 +1,5 @@
+Create a program that checks if a string is a palindrome using pointers.
+
+WTD: Use two pointers, one at the start and the other at the end. Traverse inward, comparing characters.
+
+(e.g.: I/P: "radar" ,O/P: True)

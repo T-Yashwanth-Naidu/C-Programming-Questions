@@ -1,0 +1,5 @@
+Design a program that checks if a string is a prefix of another string using pointers.
+
+WTD: Traverse both strings using two pointers. If all characters of the shorter string match the beginning of the longer string, return True.
+
+(e.g.: I/P: char *str1 = "Hello", *str2 = "Hel" ,O/P: True )
