@@ -1,0 +1,5 @@
+Design a structure for an employee with an embedded structure for address (street, city, state, zip). ( Nested Structure)
+
+WTD: Within this structure, embed another structure specifically meant for the employee's address details, capturing street, city, state, and zip code. Ensure capabilities to extract and display this address in a coherent format.
+
+(e.g: I/P: Name: "Bob", Address: [Street: "456 Maple Rd", City: "Brookfield", State: "WI", Zip: "53005"]; O/P: Address: 456 Maple Rd, Brookfield, WI, 53005)

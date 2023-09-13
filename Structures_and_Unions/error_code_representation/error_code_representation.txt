@@ -1,0 +1,5 @@
+Define a structure for representing time (hours, minutes, seconds). Implement functions to add time durations and convert this duration to seconds.
+
+WTD: Define a structure that models time, detailing hours, minutes, and seconds. Introduce functions that can sum two time durations and also convert a given duration into its equivalent representation in seconds.
+
+(e.g: I/P: Time1: 1h 20m, Time2: 0h 50m; O/P: Sum: 2h 10m, Seconds: 7800s )

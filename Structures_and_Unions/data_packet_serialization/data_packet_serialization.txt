@@ -1,0 +1,5 @@
+Create a structure to represent serialized data packets with fields like header, payload, and checksum. Implement functions to serialize and deserialize data.
+
+WTD: Construct a structure that represents serialized data packets, detailing elements like header, payload, and checksum. Develop accompanying functions that enable the serialization of this structured data into a string and its subsequent deserialization back into the structure.
+
+(e.g: I/P: Header: 0x1234, Payload: [0xAA, 0xBB, 0xCC], Checksum: 0xABCD; O/P: Serialized: [0x12, 0x34, 0xAA, 0xBB, 0xCC, 0xAB, 0xCD])

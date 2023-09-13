@@ -1,0 +1,5 @@
+Create a linked list of students using structures and dynamic memory allocation. ( Dynamic Memory with Structures)
+
+WTD: Implement a linked list that represents student records. For this purpose, use structures combined with dynamic memory allocation techniques. Ensure the capability to append new student records to the list.
+
+(e.g: I/P: Add Student: "Mia", Roll: 110; O/P: Student Mia, Roll: 110 Added )

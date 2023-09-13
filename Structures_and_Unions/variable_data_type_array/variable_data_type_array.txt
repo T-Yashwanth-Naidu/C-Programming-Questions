@@ -1,0 +1,5 @@
+Implement a structure that can store an array of data. However, the data type can vary - it could be an array of integers, floats, or characters. Use a union to manage this variability.
+
+WTD: Design a structure with the ability to store an array of data. To accommodate different data types for the array (like integers, floats, or characters), use a union. Ensure mechanisms to correctly identify and retrieve the stored data type.
+
+(e.g: I/P: DataType: Integer, Data: [1, 2, 3, 4, 5]; O/P: Array of Integers: [1, 2, 3, 4, 5])

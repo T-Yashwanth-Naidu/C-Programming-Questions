@@ -1,0 +1,5 @@
+Create a base structure for a vehicle with attributes like weight and max_speed. Extend this to derive structures for a car (with attributes like seating capacity) and a truck (with attributes like max_load) ( Structure Inheritance)
+
+WTD: Establish a base structure to depict a vehicle, detailing attributes like its weight and maximum speed. Extend this base to derive specialized structures for different vehicle types like cars (with attributes like seating capacity) and trucks (with features like maximum load capacity).
+
+(e.g: I/P: Truck, Weight: 8000kg, Speed: 120km/h, Load: 5000kg; O/P: Can load up to 5000kg )

@@ -1,0 +1,5 @@
+Define a structure with bit fields to represent a set of configurations/settings for a device. ( Bit Fields for compact Structure)
+
+WTD: Construct a structure with bit fields to efficiently represent a device's varied configurations or settings in a compact manner.
+
+(e.g: I/P: Config: 1001; O/P: Setting 1 & 4: ON )

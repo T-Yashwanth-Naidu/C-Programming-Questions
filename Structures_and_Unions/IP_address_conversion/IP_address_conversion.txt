@@ -1,0 +1,5 @@
+Create a union that can hold an IP address as a string and as four separate byte values. Implement functions to convert between the two representations.
+
+WTD: Implement a union capable of storing an IP address. This union should support two representations of the IP: as a singular string and as its four byte-wise components. Design functions that facilitate conversions between these representations.
+
+(e.g: I/P: String: "10.0.0.1"; O/P: Bytes: 10, 0, 0, 1 )

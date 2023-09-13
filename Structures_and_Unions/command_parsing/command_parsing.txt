@@ -1,0 +1,5 @@
+Design a structure to represent a command and its associated parameters. Implement a function to parse a string command into this structure. ( Structure for Command Parsing)
+
+WTD: Formulate a structure that captures a command and any associated parameters. Introduce a function capable of parsing a string-based command and populating this structure with the relevant details.
+
+(e.g: I/P: String: "JUMP 20"; O/P: Command: JUMP, Param: 20 )

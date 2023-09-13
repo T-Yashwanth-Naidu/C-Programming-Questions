@@ -1,0 +1,5 @@
+Use a union to interpret a 4-byte array as an integer and a floating-point number.
+
+WTD: Design a union that is capable of holding a 4-byte array. This union should facilitate the interpretation of this array in two ways: as an integral value and as a floating-point number.
+
+(e.g: I/P: Bytes: [0x43, 0x48, 0x00, 0x00]; O/P: Float: 134.0 )

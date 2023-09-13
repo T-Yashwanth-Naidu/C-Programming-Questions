@@ -1,0 +1,5 @@
+Implement a mini database for a library using an array of structures. Include functionalities like adding a new book and searching for a book by title. ( Array of Structures)
+
+WTD: Develop a basic book database for a library using an array of structures. This database should support operations like the addition of new books and title-based book searches.
+
+(e.g: I/P: Add: "To Kill a Mockingbird", Search: "Mockingbird"; O/P: Found: "To Kill a Mockingbird" )

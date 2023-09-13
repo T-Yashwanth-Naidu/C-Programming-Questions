@@ -1,0 +1,5 @@
+Implement a function that takes two date structures (day, month, year) and returns the difference in days. ( Passing Structures to Functions)
+
+WTD: Develop a function that accepts two date structures, each detailing the day, month, and year. This function should compute and return the difference between these dates in terms of days.
+
+(e.g: I/P: Date1: 15/02/2020, Date2: 20/02/2020; O/P: Diff: 5 days )

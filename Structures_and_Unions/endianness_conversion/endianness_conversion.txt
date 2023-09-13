@@ -1,0 +1,5 @@
+Use a union to convert endianness (big-endian to little-endian and vice versa) of an integer.
+
+WTD: Implement a union that can hold an integer value. Use this union to facilitate endianness conversion, toggling between big-endian and little-endian representations of the integer.
+
+(e.g: I/P: Int: 0xAABBCCDD; O/P: Converted: 0xDDCCBBAA )

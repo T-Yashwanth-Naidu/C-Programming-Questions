@@ -1,0 +1,5 @@
+Create a union to hold an IP address both as a string (like "192.168.1.1") and as four separate byte values.
+
+WTD: Create a union that can house an IP address. This union should support dual representations: as a singular cohesive string and as its constituent byte values.
+
+(e.g: I/P: IP String: "10.0.2.15"; O/P: Octets: [10, 0, 2, 15])

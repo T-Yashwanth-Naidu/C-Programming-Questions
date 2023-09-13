@@ -1,0 +1,5 @@
+Create a structure that can represent a color in both RGB and CMYK formats. Use a union to switch between the RGB representation and the CMYK representation.
+
+WTD: Formulate a structure capable of representing color information. This structure should support dual representations: in RGB format and in CMYK format. Using a union, ensure seamless switching between these two representations.
+
+(e.g: I/P: Color Type: RGB, RGB: [255, 0, 128]; O/P: RGB Color: [255, 0, 128])

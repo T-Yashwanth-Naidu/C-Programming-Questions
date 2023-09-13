@@ -1,0 +1,5 @@
+Create a structure to simulate file attributes like name, type (using enum), size, and creation date (use the Date structure from problem 2).
+
+WTD: Implement a structure that simulates file attributes. This structure should capture details like the file's name, its type (represented using an enum), its size in bytes, and its creation date (leveraging a previously defined Date structure).
+
+(e.g: I/P: Name: "document.txt", Type: Document, Size: 1024 bytes, Creation Date: 2023-08-29; O/P: File: "document.txt", Type: Document, Size: 1024 bytes, Created on: 2023-08-29)

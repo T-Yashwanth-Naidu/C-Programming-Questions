@@ -1,0 +1,5 @@
+Define a structure and determine its memory size. Rearrange its members to minimize memory wastage due to alignment. ( Structure Memory Alignment)
+
+WTD: Construct a structure and evaluate its memory consumption. Reorganize the structure's components in a manner that minimizes memory wastage due to alignment constraints inherent in system architecture.
+
+(e.g: I/P: Structure: int, char, short; O/P: Memory: 11 bytes; Optimized: 10 bytes )

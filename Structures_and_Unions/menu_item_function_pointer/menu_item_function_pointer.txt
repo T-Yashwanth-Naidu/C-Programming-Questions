@@ -1,0 +1,5 @@
+Create a structure representing a menu item with a name (string) and an associated function pointer to execute when the menu item is selected.( Function pointer in structures)
+
+WTD:  Define a structure that models a menu item. Each menu item should have a name (a string) and an associated function pointer. This function pointer should point to the action to be executed when the menu item is selected.
+
+(e.g: I/P: Select: "Option2"; O/P: "Option2 Executed" )

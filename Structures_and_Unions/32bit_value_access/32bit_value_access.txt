@@ -1,0 +1,5 @@
+Use a union to represent a 32-bit value that can be accessed as either two 16-bit values or four 8-bit values.
+
+WTD:  Implement a union that can hold a 32-bit numerical value. This union should allow for access to the stored number as either two separate 16-bit values or as four distinct 8-bit values.
+
+(e.g: I/P: Value: 0xABCD1234; O/P: 16-bits: 0xABCD, 0x1234; 8-bits: 0xAB, 0xCD, 0x12, 0x34 )

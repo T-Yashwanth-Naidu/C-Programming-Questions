@@ -1,0 +1,5 @@
+Create a structure for a book with title, author, and price. Implement a function to discount the book's price by a given percentage.
+
+WTD: Design a function that applies a specified discount percentage to the book's price, updating its value accordingly.
+
+(e.g: I/P: Title: "Pride and Prejudice", Author: "Austen", Price: $30, Discount: 15%; O/P: New Price: $25.5 )

@@ -1,0 +1,5 @@
+Define a structure for a student with name, roll number, and marks in 5 subjects. Calculate the average marks for a list of students. ( Structure with Arrays).
+
+WTD: Construct a structure that encapsulates a student's details, specifically their name, roll number, and scores in five subjects. Implement a function that computes the average marks for an array of student structures.
+
+(e.g: I/P: Name: "Alex", Roll: 105, Marks: [75, 80, 88, 82, 86]; O/P: Avg Marks: 82.2)

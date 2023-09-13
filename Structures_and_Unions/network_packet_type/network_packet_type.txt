@@ -1,0 +1,5 @@
+Define a structure for a network packet, which includes an enum to represent packet type (e.g., DATA, ACK, NACK). ( Enum with structures)
+
+WTD: Design a structure to represent a network packet. This structure should incorporate an enum to denote the packet type, which could be values like DATA, ACK, or NACK. 
+
+(e.g: I/P: Packet: ACK; O/P: This is an ACK packet )
