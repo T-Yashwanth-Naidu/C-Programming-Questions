@@ -1,0 +1,16 @@
+Segmented Memory Allocator:
+
+Create multiple fixed-size buffers (arrays) to act as segments.
+
+(e.g.: I/P: Allocate 10 bytes in Segment A, Allocate 20 bytes in Segment B; O/P: Addresses allocated in segments)
+
+How to Do?
+- Create an array of structures, where each structure represents a memory segment with its own memory buffer and stack top.
+- Implement allocate and free functions that take an additional parameter to specify the segment.
+- Inside these functions, use the corresponding segment's stack top to allocate or free memory.
+- Update the stack top for the specified segment when memory is allocated or freed.
+
+Detailed Example:
+If you allocate 10 bytes in Segment A and 20 bytes in Segment B, each segment's stack top should move accordingly.
+
+Hint: You can use an array of structures, where each structure represents a segment with its own stack top and memory buffer.

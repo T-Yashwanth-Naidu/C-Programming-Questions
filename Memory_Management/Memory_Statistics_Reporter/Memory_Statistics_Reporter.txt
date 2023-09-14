@@ -1,0 +1,15 @@
+Memory Statistics Reporter:
+
+Create a memory management system that keeps track of allocated and free blocks.
+
+(e.g.: I/P: Allocate 100 bytes, Free 50 bytes; O/P: Total used: 50 bytes, Free blocks: 1, Largest free block: 50 bytes)
+
+How to Do?
+- Implement a function to calculate and report statistics.
+- For each allocation or deallocation, update your records of used memory and free blocks.
+- The function should return the total memory used, the number of free blocks, and the size of the largest free block.
+
+Detailed Example:
+If you allocate 100 bytes and then free 50 bytes, the statistics should show 50 bytes in use, 1 free block, and the largest free block being 50 bytes.
+
+Hint: Use a data structure to keep track of allocations and deallocations.

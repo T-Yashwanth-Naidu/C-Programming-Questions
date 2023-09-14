@@ -1,0 +1,17 @@
+Memory-Bound_Priority_Queue
+
+Create a priority queue that only uses a pre-defined array. No extra memory allocations allowed. High-priority items come out first when removed.
+
+(e.g.: I/P: Insert 5, 9, 2; Remove; O/P: Removed 9)
+
+How to Do:
+- Declare an array of a fixed size, say N, to represent your priority queue.
+- Use an integer variable to keep track of the current size of the queue.
+- Implement an insert function that adds elements to the array in such a way that the highest priority element is always at the top (or bottom).
+- Implement a remove function that removes and returns the highest priority element.
+
+
+Detailed Example:
+You could use a binary heap data structure. Insert elements using heapify-up and remove elements using heapify-down algorithms.
+
+Hint: If using a binary heap, understand how to maintain the heap properties during insertion and removal.

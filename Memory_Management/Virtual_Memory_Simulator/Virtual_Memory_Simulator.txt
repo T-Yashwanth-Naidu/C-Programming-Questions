@@ -1,0 +1,15 @@
+Virtual Memory Simulator:
+
+Simulate virtual memory using an array to represent physical memory and another array to represent the page table.
+
+( e.g.: I/P: Access page 3, Access page 7; O/P: Page 3 loaded, Page 7 loaded)
+
+How to Do?
+- Use one array to simulate the physical memory and another array to act as the page table.
+- Implement an accessPage function that checks if the requested page is in physical memory. If not, it "loads" it.
+- Update the page table whenever a page is loaded into physical memory.
+
+Detailed Example:
+If you access pages 3 and 7, the simulator should indicate that these pages have been loaded into physical memory.
+
+Hint: The page table will help you map virtual addresses to physical addresses.

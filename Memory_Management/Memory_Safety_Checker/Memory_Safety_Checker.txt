@@ -1,0 +1,15 @@
+Memory Safety Checker:
+
+Write a function to check for buffer overflows and underflows.
+
+(e.g.: I/P: Buffer of 10 bytes, Write 12 bytes; O/P: Buffer overflow detected)
+
+How to Do?
+- Implement a function to calculate and report statistics.
+- For each allocation or deallocation, update your records of used memory and free blocks.
+- The function should return the total memory used, the number of free blocks, and the size of the largest free block.
+
+Detailed Example:
+If you try to write 12 bytes into a 10-byte buffer, the function should detect this and output "Buffer overflow detected."
+
+Hint: Always check the size before performing memory operations.

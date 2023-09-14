@@ -1,0 +1,17 @@
+Slab Allocator:
+
+Implement a simple slab allocator.
+
+(e.g.: I/P: Allocate object of 32 bytes; O/P: Address from slab allocator)
+
+How to Do?
+- Initialize your memory pool with fixed-size blocks, known as slabs.
+- Implement a function to allocate memory, which checks for an available slab of the requested size.
+- If a slab is available, mark it as used and return its address.
+- Implement a function to deallocate memory, which marks a slab as free.
+- Optionally, implement a function to merge free slabs and create larger blocks of memory.
+
+Detailed Example:
+When you request an object of 32 bytes, the allocator should return an address from its pool of 32-byte slabs.
+
+Hint: You may use linked lists or arrays to manage slabs of memory.

@@ -1,0 +1,14 @@
+Memory Alignment Checker:
+
+Write a function that checks if a pointer is aligned to a specified number of bytes.
+
+(e.g.: I/P: Address 0x1004, Alignment 4; O/P: Aligned)
+
+How to Do:
+- Take the memory address and the alignment size as inputs.
+- Use bitwise AND between (address & (alignment - 1)). If the result is 0, the memory is aligned.
+
+Detailed Example:
+If the address is 0x1004 and the alignment is 4, then (0x1004 & (4 - 1)) == 0, which means it is aligned.
+
+Hint: The bitwise AND operation is your main tool here.

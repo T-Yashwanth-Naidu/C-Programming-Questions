@@ -1,0 +1,15 @@
+Fragmentation Detector:
+
+Write a program that simulates memory allocation and deallocation, and can report the amount of fragmented memory.
+
+(e.g.: I/P: Allocate 10, Free 5, Allocate 3; O/P: Fragmentation = 2 bytes)
+
+How to do?
+- Start with a fixed-size memory pool.
+- Keep track of allocated and free blocks.
+- Fragmentation can be calculated as the total size of free blocks - the largest free block.
+
+Hint: A sorted list or tree can be useful for keeping track of free blocks to quickly find the maximum free block size.
+Detailed Example:
+
+If you allocate 10 bytes and then free 5 bytes, followed by allocating 3 bytes, you'd have 2 bytes that couldn't be used for a request of size 3 or more, hence 2 bytes are fragmented.

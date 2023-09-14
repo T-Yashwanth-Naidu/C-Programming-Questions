@@ -1,0 +1,15 @@
+Memory Defragmenter:
+
+Implement memory allocation and freeing in a simulated memory pool.
+
+( e.g.: I/P: Allocate 10, Free 5, Defragment; O/P: Memory defragmented)
+
+How to Do?
+- Implement a function called defragment in your memory management system.
+- This function should go through the list of free blocks and consolidate adjacent free blocks into larger blocks.
+- Update your records of free and allocated blocks to reflect this consolidation.
+
+Detailed Example:
+If you allocate 10 bytes, free 5 bytes, and then run the defragmenter, it should rearrange memory so that all the free space is contiguous.
+
+Hint: You'll need to update your records of allocated and free blocks during defragmentation.

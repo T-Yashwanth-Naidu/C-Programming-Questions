@@ -1,0 +1,16 @@
+Memory-Mapped_Circular_Buffer
+
+Simulate a memory-mapped I/O device by implementing a circular buffer. Implement read and write functions to the buffer, taking care not to overflow.
+
+(e.g.: I/P: Write 5, 7, 9; Read 2 times; Write 12; O/P: Read 5, 7; Next write at address wrapping to start)
+
+How to do?
+- Implement a circular buffer with a fixed size.
+- Implement read and write functions.
+- Keep track of head and tail pointers.
+- Make sure to handle the buffer wrap-around condition.
+
+Hint: When the head reaches the end of the buffer, it should wrap around to the beginning. The same applies to the tail.
+
+Detailed Example:
+If you write 5, 7, 9 to the buffer and then read twice, you should read 5 and 7. The next write should wrap around if the buffer is full.

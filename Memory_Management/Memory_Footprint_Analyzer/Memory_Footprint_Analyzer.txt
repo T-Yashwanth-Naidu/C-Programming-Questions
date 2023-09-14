@@ -1,0 +1,14 @@
+Memory Footprint Analyzer:
+
+Write a program that can analyze the memory footprint of various data structures. Also, don't limit it to known data types. When given a user defined  structure or union find its memory size.
+
+(e.g.: I/P: int, float, double; O/P: 4, 4, 8)
+
+How to Do?
+- Use the sizeof operator to find the size of various data types like int, float, and double.
+- Output these sizes.
+
+Detailed Example:
+Simply using sizeof(int) would return 4, sizeof(float) would return 4, and sizeof(double) would return 8 on most systems.
+
+Hint: The sizeof operator will give you the size in bytes, making this fairly straightforward.

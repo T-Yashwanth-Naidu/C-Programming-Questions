@@ -1,0 +1,15 @@
+Object Serialization:
+
+Implement object serialization and deserialization into/from a byte array.
+
+(e.g.: I/P: Object {a: 1, b: 2}; O/P: Byte array)
+
+How to Do?
+- Loop through each field in the object and convert it to a byte array.
+- Concatenate these byte arrays together for serialization.
+- For deserialization, read the byte array in chunks corresponding to each field and convert it back to the object.
+
+Detailed Example:
+If your object has integer fields a and b, your byte array after serialization might look like [00 00 00 01 00 00 00 02] for {a: 1, b: 2}.
+
+Hint: Consider using a standard format like JSON or Protocol Buffers as a blueprint for your own simple serialization format.

@@ -1,0 +1,17 @@
+Custom strdup Function:
+
+Implement a custom strdup function that copies a string into dynamically allocated memory.
+
+(e.g.: I/P: "hello"; O/P: Address of new string "hello")
+
+
+How to Do:
+- Use strlen to find the length of the input string.
+- Use malloc to dynamically allocate memory of length strlen(input) + 1.
+- Use strcpy or a loop to copy the contents of the input string into this new memory block.
+- Return the address of the new string.
+
+Detailed Example:
+You'll need to allocate strlen(input) + 1 bytes to also store the null-terminator.
+
+Hint: Remember to allocate an extra byte for the null-terminator.

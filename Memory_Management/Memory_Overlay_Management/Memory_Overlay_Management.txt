@@ -1,0 +1,16 @@
+Memory Overlay Management:
+
+Simulate a memory overlay mechanism where different data can occupy the same memory region at different times.
+
+(e.g.: I/P: Load Overlay 1, Load Overlay 2; O/P: Memory region updated)
+
+How to Do:
+- Declare a fixed-size array to represent your memory block.
+- Create a function to "load" an overlay into this memory block.
+- Create a function to "unload" or clear the current overlay.
+- Use a variable to keep track of which overlay is currently loaded.
+
+Detailed Example:
+Your "load" function could simply copy the contents of an overlay into the array, effectively overwriting whatever was there before.
+
+Hint: Keep state information to know which overlay is currently loaded, and manage transitions properly.

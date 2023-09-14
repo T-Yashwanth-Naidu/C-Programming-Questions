@@ -1,0 +1,16 @@
+Memory Access Logger:
+
+Implement a logger that logs each memory access (read or write) to a simulated block of memory.
+
+(e.g.: I/P: Write to address 5, Read from address 5; O/P: Log)
+
+How to Do?
+- Create an array to simulate a block of memory.
+- Implement a logger function that takes an address and an operation type as inputs.
+- Use a data structure like a list or a dictionary to record each read and write operation.
+- For each operation, store the address and the type of operation (read or write) in the logger.
+
+Detailed Example:
+If you write to address 5 and then read from address 5, the log should contain these two operations.
+
+Hint: You can use an array or list to act as the memory block and another data structure to log the operations.

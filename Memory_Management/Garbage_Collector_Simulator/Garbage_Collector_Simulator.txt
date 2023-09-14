@@ -1,0 +1,16 @@
+Garbage Collector Simulator:
+
+Implement a simple mark-and-sweep garbage collector.
+
+(e.g.: I/P: Allocate 5, Allocate 7, Mark 5, Sweep; O/P: 7 collected)
+
+How to Do?
+- Create a list or array to keep track of all currently allocated memory blocks.
+- Add a boolean field to each block to represent whether it is "marked" for garbage collection.
+- Implement a mark function that takes an address and marks the corresponding block.
+- Implement a sweep function that frees all unmarked blocks and unmarks the remaining blocks.
+
+Detailed Example:
+If you allocate blocks of 5 and 7 bytes and then mark the 5-byte block, running the sweep should collect the 7-byte block.
+
+Hint: Use a linked list or array to keep track of allocated blocks, along with a "marked" flag.

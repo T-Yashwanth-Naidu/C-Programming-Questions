@@ -1,0 +1,15 @@
+Write-Once Memory Simulator:
+
+Implement a write-once memory block where each byte can be written only once.
+
+(e.g.: I/P: Write 0xAA to address 5 twice; O/P: Write Failed)
+
+How to Do?
+- Create an array to act as your memory block.
+- Create a boolean array of the same size to track if a location has been written to.
+- When attempting to write, check the boolean array. If the byte has been written to already, output "Write Failed".
+
+Detailed Example:
+If you attempt to write 0xAA to address 5 two times, the second attempt should consult the boolean array, find it's already been written to, and output "Write Failed".
+
+Hint: A secondary array can act as flags to keep track of each byte's write status.

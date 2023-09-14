@@ -1,0 +1,16 @@
+Memory Offset Calculator:
+
+Create a function that calculates the offset of a given field in a structure.
+
+(e.g.: I/P: Field 'x' in struct A; O/P: Offset in bytes)
+
+How to Do?
+- Define the structure with its fields.
+- Implement a function that takes the name of a field as an argument.
+- Use the offsetof macro or manual pointer arithmetic to find the offset of the given field.
+- Return the offset in bytes.
+
+Detailed Example:
+For a struct with fields 'a', 'b', and 'x', finding the offset of 'x' would return its position in bytes from the beginning of the struct.
+
+Hint: The offsetof macro in C can help find the offset easily.

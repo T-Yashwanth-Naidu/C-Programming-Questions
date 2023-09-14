@@ -1,0 +1,16 @@
+Memory Leak Detector:
+
+Implement a simple memory leak detector for dynamic memory allocation functions like malloc and free.
+
+(e.g.: I/P: Allocate 5, Allocate 7, Free 5; O/P: Leak Detected at 7)
+
+How to do?
+- Keep a list of all currently allocated blocks.
+- When malloc is called, add the block to the list.
+- When free is called, remove the block from the list.
+- At the end of the program, check if the list is empty. If not, report a leak.
+
+Hint: Use a linked list to keep track of allocated blocks.
+
+Detailed Example:
+If you allocate 5 and 7 bytes but only free the 5-byte block, the program should report a memory leak at 7 bytes.

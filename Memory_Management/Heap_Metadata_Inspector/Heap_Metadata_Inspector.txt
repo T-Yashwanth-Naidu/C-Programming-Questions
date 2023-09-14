@@ -1,0 +1,15 @@
+Heap Metadata Inspector:
+
+Implement a function to inspect and print the metadata of the heap, like block sizes and free/used status.
+
+(e.g.: I/P: Allocate 5, Free 2; O/P: Block 1: Used, Block 2: Free)
+
+How to Do?
+- Create a simulated heap with an array and metadata structures for each block.
+- Upon allocation or freeing, update the block's metadata.
+- Create a function to loop through the metadata structures and print out their status.
+
+Detailed Example:
+Your metadata might contain fields like isFree and blockSize. When you allocate 5 and then free 2, your function could print out: Block 1: Used, size 5; Block 2: Free, size 2.
+
+Hint: Check out how dynamic memory allocators keep track of block sizes and free/used status for ideas on storing metadata.

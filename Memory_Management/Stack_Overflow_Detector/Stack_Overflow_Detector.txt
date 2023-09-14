@@ -1,0 +1,15 @@
+Stack Overflow Detector:
+
+Implement a stack overflow detector for a simulated stack data structure.
+
+(e.g.: I/P: Push 10 items in a stack of size 9; O/P: Stack Overflow)
+
+How to Do?
+- Create a stack with a maximum size attribute.
+- Implement push and pop methods.
+- During each push, check if adding an element would exceed the stack's maximum size. If it would, output "Stack Overflow".
+
+Detailed Example:
+If your stack has a maximum size of 9, attempting to push a 10th item should trigger your overflow detection and output "Stack Overflow".
+
+Hint: Use an integer variable to keep track of the current number of elements in the stack.

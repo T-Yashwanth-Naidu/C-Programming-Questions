@@ -1,0 +1,14 @@
+Memory Initialization Library:
+
+Create a library function to initialize a block of memory with a specific value.
+
+(e.g.: I/P: Block size 5, Value 0xAA; O/P: 0xAAAAAAAAAA)
+
+How to Do?
+- Accept the block size and the value to initialize with as parameters.
+- Use a loop to go through each byte in the block and set it to the specified value.
+
+Detailed Example:
+If you have to fill a block of 5 bytes with the value 0xAA, your output memory block would look like 0xAAAAAAAAAA.
+
+Hint: You can use loops or the memset function to accomplish this task.

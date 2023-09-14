@@ -1,0 +1,10 @@
+Dynamic Array:
+
+Implement a dynamic array with the ability to resize itself.
+
+How to do?
+- Start with an initial size.
+- When adding an element, check if the array is full. If so, resize it.
+- When removing an element, consider resizing down if the array is less than half full.
+
+Hint: Use malloc and free (or your custom allocator) to manage the dynamic memory.

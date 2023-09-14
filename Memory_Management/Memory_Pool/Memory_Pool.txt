@@ -1,0 +1,15 @@
+Memory Pool:
+
+Create multiple memory pools, each with its own fixed-size buffer.
+( e.g.: I/P: Allocate 5 from Pool A, Allocate 7 from Pool B; O/P: Addresses allocated from pools)
+
+How to Do?
+- Create multiple arrays to serve as different memory pools.
+- Each pool should have its own list of free blocks.
+- Implement allocate and free functions that take an additional parameter to specify the pool.
+- Use the specified pool's free list to allocate and free blocks.
+
+Detailed Example:
+If you allocate 5 bytes from Pool A and 7 bytes from Pool B, each pool should return an address from its own buffer.
+
+Hint: You can manage each pool's free list with a linked list or array.

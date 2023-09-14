@@ -1,0 +1,15 @@
+Stack-based Memory Allocator:
+
+Design a memory allocator that allocates memory in a Last-In-First-Out (LIFO) manner from a fixed-size buffer. The allocator should have allocate and free functions.
+
+(e.g.: I/P: Request for 10, 20, and 15 bytes, then Free 15 bytes; O/P: Addresses allocated and next available address after freeing)
+
+How to do? 
+- Create a fixed-size buffer (array) to act as the memory pool.
+- Keep track of the top of the stack.
+- When allocating memory, move the stack top accordingly and return the address.
+- When freeing memory, validate that it is indeed the most recently allocated block and then move the stack top back.
+
+Detailed Example: For an allocation request of sizes 10, 20, and 15 bytes, the stack top should move each time memory is allocated. When you free 15 bytes, the stack top should move back to the end of the 20-byte block
+
+Hint: Use a structure to represent each allocation, storing the size and the starting address.
