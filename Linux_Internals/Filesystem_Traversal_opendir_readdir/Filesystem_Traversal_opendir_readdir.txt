@@ -1,0 +1,5 @@
+Filesystem Traversal using opendir and readdir
+
+WTD: Traverse a directory structure and print all filenames. Use opendir() and readdir() to read directories and their contents.
+
+(e.g.: I/P: Root directory; O/P: List of all files and directories)

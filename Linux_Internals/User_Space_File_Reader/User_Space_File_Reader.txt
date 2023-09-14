@@ -1,0 +1,5 @@
+User-Space File Reader
+
+WTD: Read a file from a user-space program using system calls. Use open() and read() system calls to read a file and display its contents.
+
+(e.g.: I/P: File name; O/P: File contents)

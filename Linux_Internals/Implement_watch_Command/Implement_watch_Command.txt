@@ -1,0 +1,5 @@
+Implement watch Command
+
+WTD: Write a program to mimic the Linux watch command. Use system() or fork() and exec() to run the command at regular intervals.
+
+(e.g.: I/P: Command to run, time interval; O/P: Command output at intervals)

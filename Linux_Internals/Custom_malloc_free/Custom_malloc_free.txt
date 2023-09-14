@@ -1,0 +1,3 @@
+Custom malloc() and free()
+
+WTD: Implement your own malloc() and free() functions. Use system calls like sbrk() to manage memory allocation.

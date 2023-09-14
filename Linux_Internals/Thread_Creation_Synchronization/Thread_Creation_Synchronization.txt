@@ -1,0 +1,5 @@
+Thread Creation and Synchronization
+
+WTD: Create multiple threads and synchronize them using mutexes. Use pthread_create() for thread creation and pthread_mutex_lock() for synchronization.
+
+(e.g.: I/P: Number of threads; O/P: Thread execution order)

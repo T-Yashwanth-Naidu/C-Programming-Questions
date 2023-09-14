@@ -1,0 +1,5 @@
+Implement chmod Command
+
+WTD: Create a program to mimic the Linux chmod command for changing file permissions. Use the chmod() system call to change the file permissions.
+
+(e.g.: I/P: File path and permission code; O/P: Permission change status)

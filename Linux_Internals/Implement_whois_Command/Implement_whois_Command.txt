@@ -1,0 +1,5 @@
+Implement whois Command
+
+WTD: Write a program to mimic the whois command functionality. Use socket programming to communicate with the whois server.
+
+(e.g.: I/P: Domain name; O/P: Whois record)

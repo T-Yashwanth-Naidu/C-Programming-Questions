@@ -1,0 +1,5 @@
+Implement a Simple Shell
+
+WTD: Create a minimal shell in C that can execute basic Linux commands like ls, cd, pwd, etc. Use system calls like fork() and exec() to spawn and execute commands. 
+
+(e.g.: I/P: "ls -l"; O/P: Directory listing)

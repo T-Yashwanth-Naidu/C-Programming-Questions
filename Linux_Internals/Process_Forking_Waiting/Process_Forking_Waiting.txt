@@ -1,0 +1,5 @@
+Process Forking and Waiting
+
+WTD: Create a program that forks child processes and waits for them to complete. Use fork() to create child processes and wait() to wait for their completion.
+
+(e.g.: I/P: Number of child processes; O/P: Exit status of children)

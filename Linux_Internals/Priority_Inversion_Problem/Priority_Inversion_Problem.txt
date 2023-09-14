@@ -1,0 +1,7 @@
+Priority Inversion Problem
+
+WTD: Simulate the priority inversion problem and solve it using priority inheritance. Implement priority inheritance while using mutexes.
+
+(e.g.: I/P: Thread priorities; O/P: Execution order)
+
+

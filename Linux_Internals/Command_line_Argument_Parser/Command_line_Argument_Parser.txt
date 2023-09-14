@@ -1,0 +1,5 @@
+Command-line Argument Parser
+
+WTD: Write a C program that takes various command-line options and arguments and prints them. Use the getopt() library function to parse command-line options and arguments.
+
+(e.g.: I/P: Command-line options and arguments; O/P: Parsed data)

@@ -1,0 +1,5 @@
+Zero-Copy Data Transfer
+
+WTD: Implement a zero-copy data transfer mechanism between two processes using shared memory. Use shared memory mechanisms like mmap() for zero-copy transfer.
+
+(e.g.: I/P: Data to transfer; O/P: Data received)

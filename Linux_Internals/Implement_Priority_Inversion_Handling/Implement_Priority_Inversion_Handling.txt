@@ -1,0 +1,5 @@
+Implement Priority Inversion Handling
+
+WTD: Simulate Priority Inversion and implement a solution. Use threads with different priorities and mutexes to simulate and resolve priority inversion.
+
+(e.g.: I/P: None; O/P: Fixed Priority Inversion)

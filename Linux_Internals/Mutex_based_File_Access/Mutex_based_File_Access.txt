@@ -1,0 +1,5 @@
+Mutex-based File Access
+
+WTD: Write a multi-threaded program where each thread attempts to write to a file. Use mutexes to ensure that only one thread writes to the file at any given time. Use pthread_mutex_lock() to lock the file before each thread writes to it.
+
+(e.g.: I/P: Thread count; O/P: File with written data)

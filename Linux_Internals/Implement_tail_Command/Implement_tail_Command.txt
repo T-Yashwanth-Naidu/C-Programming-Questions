@@ -1,0 +1,5 @@
+Implement tail Command
+
+WTD: Create a program to mimic the Linux tail command. Use file I/O operations to read the file in reverse and display lines.
+
+(e.g.: I/P: File path; O/P: Last 10 lines of the file)

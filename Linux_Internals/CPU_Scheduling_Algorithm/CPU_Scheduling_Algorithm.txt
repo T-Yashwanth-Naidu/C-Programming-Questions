@@ -1,0 +1,5 @@
+CPU Scheduling Algorithm
+
+WTD: Implement a basic CPU scheduling algorithm like Round Robin. Use a queue to manage processes and simulate the CPU scheduler.
+
+(e.g.: I/P: Processes and burst times; O/P: Turnaround and waiting times)

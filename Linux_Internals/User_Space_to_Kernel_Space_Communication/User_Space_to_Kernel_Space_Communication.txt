@@ -1,0 +1,5 @@
+User-Space to Kernel-Space Communication
+
+WTD: Implement a simple user-space to kernel-space communication using procfs. Create a proc file and use it to send and receive messages from a kernel module.
+
+(e.g.: I/P: String message; O/P: Echoed message from kernel-space)

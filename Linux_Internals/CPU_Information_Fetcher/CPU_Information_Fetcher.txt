@@ -1,0 +1,3 @@
+CPU Information Fetcher
+
+WTD: Write a program to fetch and display CPU information from /proc/cpuinfo. Use file I/O to read the /proc/cpuinfo file and parse it.

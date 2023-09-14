@@ -1,0 +1,5 @@
+Semaphore-based Producer-Consumer
+
+WTD: Implement a producer-consumer problem using semaphores. Use POSIX semaphores and threads to implement the producer and consumer.
+
+(e.g.: I/P: Number of items to produce and consume; O/P: Order of production and consumption. )

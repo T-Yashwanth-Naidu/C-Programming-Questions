@@ -1,0 +1,5 @@
+Terminal Multiplexer
+
+WTD: Create a basic terminal multiplexer that allows switching between multiple shell instances. Use fork() and exec() to spawn new shells and terminal I/O to switch between them.
+
+(e.g.: I/P: Key commands; O/P: Switched terminal instance)

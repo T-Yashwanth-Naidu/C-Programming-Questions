@@ -1,0 +1,5 @@
+Custom Signal Handling
+
+WTD: Write a program that custom handles signals like SIGINT and SIGTERM. Use signal() or sigaction() to catch and handle signals.
+
+(e.g.: I/P: Signal type; O/P: Custom message or action upon receiving signal)

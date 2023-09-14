@@ -1,0 +1,5 @@
+Implement ping Command
+
+WTD: Write a program to mimic the functionality of the ping command. Use raw sockets and ICMP protocol to implement the ping functionality.
+
+(e.g.: I/P: IP Address or hostname; O/P: Ping statistics)

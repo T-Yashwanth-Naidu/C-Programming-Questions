@@ -1,0 +1,5 @@
+File Copy Program
+
+WTD: Write a program that copies one file to another using low-level file operations. Use open(), read(), and write() system calls to perform the file copy.
+
+(e.g.: I/P: Source and destination file paths; O/P: Copy status)

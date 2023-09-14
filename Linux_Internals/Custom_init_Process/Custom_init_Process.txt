@@ -1,0 +1,5 @@
+Custom init Process
+
+WTD: Write a custom init process to replace the default init for embedded Linux. Research how init works and write a C program that performs the necessary initialization steps.
+
+(e.g.: I/P: None; O/P: System booted with custom init)

@@ -1,0 +1,5 @@
+Custom ps Command
+
+WTD: Implement a simplified version of the ps command to list the currently running processes. Read information from /proc to list the currently running processes.
+
+(e.g.: I/P: None; O/P: List of running processes)
