@@ -1,0 +1,5 @@
+Queue-based Text Filter. 
+
+WTD: Develop a queue-based text filter that removes specific words from a given text string. The words to be filtered out should be enqueued and then compared against the text for filtering.  
+
+(e.g: I/P: Text - "Hello world", Filter - "world" ; O/P: "Hello")

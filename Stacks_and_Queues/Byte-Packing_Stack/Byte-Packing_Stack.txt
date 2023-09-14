@@ -1,0 +1,5 @@
+Byte-Packing Stack.
+
+WTD: Design a stack that efficiently stores 8-bit data in a continuous memory space. Ensure that the 32-bit words are packed without any wastage.  
+
+(e.g: I/P: Push 0x01, 0x02, 0x03, 0x04 ; O/P: Memory content - 0x04030201)

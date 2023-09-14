@@ -1,0 +1,5 @@
+Palindrome Checker using Stack.
+
+WTD: Create a function that uses a stack to determine whether a given string is a palindrome. Push each character of the string onto a stack and then pop them off to compare with the original string.  
+
+(e.g: I/P: "RACECAR" ; O/P: Palindrome)

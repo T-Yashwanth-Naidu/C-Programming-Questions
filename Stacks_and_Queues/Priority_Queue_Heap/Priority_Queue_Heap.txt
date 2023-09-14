@@ -1,0 +1,5 @@
+Priority Queue using Heap.
+
+WTD: Create a priority queue using either a max-heap or a min-heap. Implement methods for insertion and removal of elements based on their priority.  
+
+(e.g: I/P: Insert 3, Insert 1, Insert 4 ; O/P: RemoveMax - 4)

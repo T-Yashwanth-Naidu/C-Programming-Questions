@@ -1,0 +1,5 @@
+Queue-based Sequence Generator.
+
+WTD: Design a queue-based system that can generate the Fibonacci sequence up to n numbers. The queue should be used to store intermediate Fibonacci numbers and help in generating subsequent numbers in the sequence.  
+
+(e.g: I/P:  n = 5  ; O/P: 0, 1, 1, 2, 3)

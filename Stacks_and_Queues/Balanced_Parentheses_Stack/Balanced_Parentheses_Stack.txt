@@ -1,0 +1,5 @@
+Balanced Parentheses using Stack.  
+
+WTD: Check for balanced parentheses in a given expression. Use a stack to keep track of opening and closing brackets, braces, and parentheses.
+
+(e.g: I/P: "{[()]}" ; O/P: Balanced)

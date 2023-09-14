@@ -1,0 +1,5 @@
+Queue-based Cache.
+
+WTD: Implement a caching mechanism using a queue. When the cache is full, evict the least recently used item.  
+
+(e.g: I/P: Cache(2), Put 1, Put 2, Get 1, Put 3 ; O/P: Cache - [1, 3])

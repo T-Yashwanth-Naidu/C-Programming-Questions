@@ -1,0 +1,5 @@
+Expression Validator.
+
+WTD: Develop a stack-based mechanism to validate the correctness of arithmetic expressions by checking for balanced parentheses and proper operator placement. 
+
+(e.g: I/P: "(a+b) * (c-d)" ; O/P: Valid Expression)

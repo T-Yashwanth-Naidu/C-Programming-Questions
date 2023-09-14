@@ -1,0 +1,5 @@
+String Message Queue. 
+
+WTD: Implement a queue that specializes in storing and retrieving string messages in a FIFO manner. 
+
+(e.g: I/P: Enqueue "HELLO", Enqueue "WORLD" ; O/P: Dequeue - "HELLO", Dequeue - "WORLD")

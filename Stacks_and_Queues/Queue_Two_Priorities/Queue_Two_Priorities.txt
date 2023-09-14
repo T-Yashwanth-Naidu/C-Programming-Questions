@@ -1,0 +1,5 @@
+Queue with Two Priorities.
+
+WTD: Design a queue data structure that handles two levels of priority (high and low). Ensure that elements with high priority are dequeued before those with low priority.  
+
+(e.g: I/P: Enqueue 1 (High), Enqueue 2 (Low) ; O/P: Dequeue - 1)

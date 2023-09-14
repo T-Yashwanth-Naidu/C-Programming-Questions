@@ -1,0 +1,5 @@
+Stack-based Calculator.
+
+WTD: Build a simple calculator to evaluate postfix expressions. Use a stack to keep track of operands and apply operators as they appear.  
+
+(e.g: I/P: "5 1 2 + 4 * + 3 -" ; O/P: 14)

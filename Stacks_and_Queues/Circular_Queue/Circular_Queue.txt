@@ -1,0 +1,5 @@
+Circular Queue.
+
+WTD: Develop a circular queue that overwrites the oldest elements when the queue reaches its capacity. Implement wrap-around functionality to make sure that new elements are inserted at the start of the array when the end is reached.  
+
+(e.g: I/P: Enqueue 1, 2, 3, 4 (Size=3) ; O/P: 2, 3, 4)

@@ -1,0 +1,5 @@
+Nested Statement Counter.
+
+WTD: Use a stack to simulate the nested structure of programming constructs like loops or if-statements, and return their depth.  
+
+(e.g: I/P: { { } } ; O/P: Depth - 2)

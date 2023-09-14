@@ -1,0 +1,5 @@
+Recursive to Iterative Converter. 
+
+WTD: Create a function that uses a stack to convert a recursive algorithm into its iterative version. For example, convert a recursive Fibonacci function into an iterative one that uses a stack for storage.  
+
+(e.g: I/P: Fibonacci(5) ; O/P: 5)

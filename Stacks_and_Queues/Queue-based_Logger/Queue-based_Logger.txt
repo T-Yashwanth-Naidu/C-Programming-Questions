@@ -1,0 +1,5 @@
+Queue-based Logger.
+
+WTD: Build a queue-based logging system that logs and retrieves various system events. The queue should have a predefined size, and when it gets full, the oldest log entry should be removed to make space for a new one.  
+
+(e.g: I/P: Log "Event1", Log "Event2", Retrieve ; O/P: "Event1")

@@ -1,0 +1,5 @@
+Command Parser. 
+
+WTD: Develop a command parser using a stack that can handle nested commands. The parser should be able to distinguish between different types of commands and their nesting levels. Implement a mechanism to return the depth of the nested commands for debugging or other purposes.  
+
+(e.g: I/P: "{CMD1 {CMD2}}" ; O/P: Depth - 2)

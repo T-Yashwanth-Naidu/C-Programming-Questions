@@ -1,0 +1,5 @@
+Undo and Redo Stack.
+
+WTD: Implement a system that allows for undo and redo operations. Use two stacks to keep track of all states, one for undo and another for redo.  
+
+(e.g: I/P: Write "Hello", Undo, Write "Hi" ; O/P: "Hi")

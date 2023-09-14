@@ -1,0 +1,5 @@
+Queue from Stacks.
+
+WTD: Implement a queue using two stacks. Use one stack for enqueuing and another for dequeuing. Make sure the oldest element gets dequeued.
+
+(e.g: I/P: Enqueue 1, Enqueue 2 ; O/P: Dequeue - 1)

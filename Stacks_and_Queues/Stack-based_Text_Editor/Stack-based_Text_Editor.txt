@@ -1,0 +1,5 @@
+Stack-based Text Editor.
+
+WTD: Design a text editor that uses a stack to implement basic text editing features like undo and redo. Each operation should push the current state of the text onto the stack, allowing for easy rollback or re-application of changes.  
+
+(e.g: I/P: Add "Hello", Undo, Add "Hi" ; O/P: "Hi")

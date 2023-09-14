@@ -1,0 +1,5 @@
+Min-Element Stack. 
+
+WTD: Construct a stack that can return the minimum element from the stack in constant time O(1). Use an auxiliary stack or any other data structure to keep track of the minimum element. 
+
+(e.g: I/P: Push 4, Push 2, Push 8 ; O/P: Min - 2)

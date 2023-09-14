@@ -1,0 +1,5 @@
+Multi-stack Array.
+
+WTD: Design a system that allows multiple stacks to be stored within a single array. The space utilization should be optimized so that as one stack grows, it can acquire more space without causing overflow errors for the other stacks.
+
+(e.g: I/P: Push 1 to Stack1, Push 'a' to Stack2 ; O/P: Array - [1, 'a'])

@@ -1,0 +1,5 @@
+Function Call Logger.
+
+WTD:  Implement a stack that logs function calls during the runtime of a program. This stack should allow for backtracking, enabling the user to trace the sequence of function calls and understand the flow of execution.  
+
+(e.g: I/P: Call FuncA, Call FuncB, Return ; O/P: Current function - FuncA)

@@ -1,0 +1,5 @@
+Post-order Traversal using Stack.
+
+WTD: Implement post-order traversal of a binary tree using a stack. Make sure to visit the left subtree, then the right subtree, and finally the root node. 
+
+(e.g: I/P: Tree - 1->2->3 ; O/P: 2, 3, 1)
