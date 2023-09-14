@@ -1,0 +1,8 @@
+Tim Sort:
+
+
+WTD: Sort an array using Tim Sort.
+
+Tim Sort: A hybrid sorting algorithm derived from merge sort and insertion sort.
+
+(e.g.: I/P: [5, 21, 9, 1, 45, 15, 67]; O/P: [1, 5, 9, 15, 21, 45, 67])

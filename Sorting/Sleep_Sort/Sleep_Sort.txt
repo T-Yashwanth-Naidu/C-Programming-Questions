@@ -1,0 +1,8 @@
+Sleep Sort:
+
+
+WTD: Sort an array using Sleep Sort.  
+
+Sleep Sort: This unusual sort involves creating a separate thread for each element in the input array, where each thread sleeps for an amount of time corresponding to the value of the input element.  
+
+(e.g.: I/P: [4, 3, 2, 1]; O/P: [1, 2, 3, 4])

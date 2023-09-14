@@ -1,0 +1,8 @@
+Odd-Even Sort:
+
+
+WTD: Sort an array using Odd-Even Sort.  
+
+Odd-Even Sort: A variation of bubble sort that first sorts the odd-indexed numbers and then the even-indexed numbers.  
+
+(e.g.: I/P: [3, 7, 4, 9, 5, 2, 6, 1]; O/P: [1, 2, 3, 4, 5, 6, 7, 9])

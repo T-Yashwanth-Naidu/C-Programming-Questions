@@ -1,0 +1,7 @@
+Recursive Merge Sort:
+
+WTD: Sort an array using recursive merge sort.
+
+Merge Sort: A divide and conquer algorithm that splits the array into halves, sorts them, and merges them back.
+
+(e.g.: I/P: [38, 27, 43, 3, 9, 82, 10]; O/P: [3, 9, 10, 27, 38, 43, 82])

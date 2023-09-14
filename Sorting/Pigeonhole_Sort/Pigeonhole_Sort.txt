@@ -1,0 +1,8 @@
+Pigeonhole Sort:
+
+
+WTD: Sort an array of positive integers using Pigeonhole Sort.
+
+Pigeonhole Sort: Suitable for sorting elements where the range of key values is small.
+
+(e.g.: I/P: [8, 3, 2, 7, 4, 6, 8]; O/P: [2, 3, 4, 6, 7, 8, 8])

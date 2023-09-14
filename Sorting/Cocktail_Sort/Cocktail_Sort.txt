@@ -1,0 +1,7 @@
+Cocktail Sort:
+
+WTD: Sort an array using Cocktail Sort.
+
+Cocktail Sort: A variation of Bubble Sort that sorts in both directions on each pass.
+
+(e.g.: I/P: [5, 1, 4, 2, 8, 0, 2]; O/P: [0, 1, 2, 2, 4, 5, 8])

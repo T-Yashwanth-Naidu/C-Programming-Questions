@@ -1,0 +1,7 @@
+Stooge Sort:
+
+WTD: Sort an array using Stooge Sort.  
+
+Stooge Sort: A recursive sorting algorithm that sorts first 2/3rd of the array, then last 2/3rd, and again first 2/3rd.  
+
+(e.g.: I/P: [2, 4, 5, 3, 1]; O/P: [1, 2, 3, 4, 5])

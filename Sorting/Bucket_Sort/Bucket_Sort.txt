@@ -1,0 +1,8 @@
+Bucket Sort:
+
+
+WTD: Sort floating-point numbers using Bucket Sort.
+
+Bucket Sort: Distributes elements into buckets, sorts individual buckets, and then concatenates them.
+
+(e.g.: I/P: [0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434]; O/P: [0.1234, 0.3434, 0.565, 0.656, 0.665, 0.897])

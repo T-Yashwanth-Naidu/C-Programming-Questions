@@ -1,0 +1,7 @@
+Heap Sort with Binary Max Heap:
+
+WTD: Sort an array using heap sort with a binary max heap.
+
+Heap Sort: Builds a binary max heap and then swaps the root with the last element, decreasing the heap size.
+
+(e.g.: I/P: [3, 19, 1, 14, 8, 7]; O/P: [1, 3, 7, 8, 14, 19])

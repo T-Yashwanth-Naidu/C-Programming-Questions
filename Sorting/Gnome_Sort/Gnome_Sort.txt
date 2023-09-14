@@ -1,0 +1,8 @@
+Gnome Sort:
+
+
+WTD: Sort an array using Gnome Sort.  
+
+Gnome Sort: Also known as "stupid sort," it iterates through the list to be sorted and swaps adjacent elements if they are in the wrong order.  
+
+(e.g.: I/P: [34, 2, 10, -9]; O/P: [-9, 2, 10, 34])

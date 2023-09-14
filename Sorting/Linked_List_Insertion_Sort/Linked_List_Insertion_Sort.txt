@@ -1,0 +1,7 @@
+Linked List Insertion Sort:
+
+WTD: Sort a singly-linked list using insertion sort.
+
+Insertion Sort: A simple sorting algorithm that works by building a sorted array (or list) one element at a time.
+
+(e.g.: I/P: 4 -> 2 -> 1 -> 5; O/P: 1 -> 2 -> 4 -> 5)

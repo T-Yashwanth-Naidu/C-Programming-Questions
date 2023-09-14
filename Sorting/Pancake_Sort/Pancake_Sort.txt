@@ -1,0 +1,8 @@
+Pancake Sort:
+
+
+WTD: Sort an array using Pancake Sort.  
+
+Pancake Sort: This involves reversing portions of the array to sort the elements.  
+
+(e.g.: I/P: [23, 15, 17, 30]; O/P: [15, 17, 23, 30])

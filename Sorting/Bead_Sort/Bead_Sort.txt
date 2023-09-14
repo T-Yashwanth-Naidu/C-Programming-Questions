@@ -1,0 +1,7 @@
+Bead Sort:
+
+WTD: Sort an array of non-negative integers using Bead Sort.  
+
+Bead Sort: Also known as "Gravity Sort," it uses a grid to sort integers.  
+
+(e.g.: I/P: [5, 1, 4, 2, 8]; O/P: [1, 2, 4, 5, 8])

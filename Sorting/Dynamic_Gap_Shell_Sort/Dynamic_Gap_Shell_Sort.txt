@@ -1,0 +1,7 @@
+Dynamic Gap Shell Sort:
+
+WTD: Sort an array using shell sort with a dynamic gap sequence.
+
+Shell Sort: A generalization of insertion sort that works by comparing elements that are distant rather than adjacent.
+
+(e.g.: I/P: [9, 8, 3, 7, 5, 6, 4, 1]; O/P: [1, 3, 4, 5, 6, 7, 8, 9])

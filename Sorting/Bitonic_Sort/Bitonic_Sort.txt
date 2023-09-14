@@ -1,0 +1,8 @@
+Bitonic Sort:
+
+
+WTD: Sort an array using Bitonic Sort.  
+
+Bitonic Sort: First produces a bitonic sequence and then iteratively sorts that sequence.  
+
+(e.g.: I/P: [3, 10, 2, 1, 20]; O/P: [1, 2, 3, 10, 20])

@@ -1,0 +1,8 @@
+Comb Sort:
+
+
+WTD: Sort an array using comb sort.
+
+Comb Sort: A variant of bubble sort that eliminates turtles, or small values near the end of the list.
+
+(e.g.: I/P: [8, 4, 1, 14, 8, 2, 9, 5]; O/P: [1, 2, 4, 5, 8, 8, 9, 14])

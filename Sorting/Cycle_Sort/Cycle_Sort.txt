@@ -1,0 +1,8 @@
+Cycle Sort:
+
+
+WTD: Sort an array in-place using Cycle Sort.
+
+Cycle Sort: An in-place, unstable sorting algorithm that is optimal in terms of the total number of writes to the original array.
+
+(e.g.: I/P: [20, 40, 50, 10, 30]; O/P: [10, 20, 30, 40, 50])

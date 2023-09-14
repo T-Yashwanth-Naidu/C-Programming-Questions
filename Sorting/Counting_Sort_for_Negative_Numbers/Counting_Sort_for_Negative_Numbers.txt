@@ -1,0 +1,8 @@
+Counting Sort for Negative Numbers:
+
+
+WTD: Sort an array that includes negative numbers using counting sort.
+
+Counting Sort: Works by counting the occurrences of each unique element and then positioning them in a sorted manner.
+
+(e.g.: I/P: [4, 2, 2, 8, 3, 3, 1, -1, -2]; O/P: [-2, -1, 1, 2, 2, 3, 3, 4, 8])
