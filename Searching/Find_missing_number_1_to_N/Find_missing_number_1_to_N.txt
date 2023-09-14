@@ -1,0 +1,9 @@
+Find the missing number in an array of 1 to N.
+
+
+WTD: Create a function that finds the missing number in an array that contains numbers from 1 to N. You can use binary search or sum formula to find the missing number.
+
+
+Algorithm: Use binary search or mathematical formula.
+
+(e.g.: I/P: [1, 2, 4, 6, 5, 7, 8] ; O/P: 3)

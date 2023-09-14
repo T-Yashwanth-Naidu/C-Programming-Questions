@@ -1,0 +1,9 @@
+Search for an element in a matrix where rows and columns are sorted.
+
+
+WTD: Develop a function to search for an element in a matrix where the rows and columns are sorted. Start from the top-right or bottom-left corner and incrementally move toward the target.
+
+
+Algorithm: Start from the top-right or bottom-left corner and move towards the target.
+
+(e.g.: I/P: Matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], Search Element = 5; O/P: (1, 1))

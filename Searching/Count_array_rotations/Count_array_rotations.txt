@@ -1,0 +1,9 @@
+Count the number of times a sorted array is rotated.
+
+
+WTD: Write a function that counts the number of times a sorted array is rotated. Use binary search to identify the pivot element, which indicates the rotation count.
+
+
+Algorithm: Use binary search to find the pivot element.
+
+(e.g.: I/P: [15, 18, 2, 3, 6, 12]; O/P: 2)

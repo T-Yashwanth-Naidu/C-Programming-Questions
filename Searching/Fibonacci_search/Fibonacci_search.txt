@@ -1,0 +1,9 @@
+Implement Fibonacci search on a sorted array.
+
+
+WTD: Create a function that uses Fibonacci search to find a target element in a sorted array. Use Fibonacci numbers to divide the array into unequal parts.
+
+
+Algorithm: Fibonacci search divides the array into unequal parts based on Fibonacci numbers.
+
+(e.g.: I/P: [1, 2, 3, 4, 5], 2 ; O/P: 1)

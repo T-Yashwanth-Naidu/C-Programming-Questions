@@ -1,0 +1,9 @@
+In a sorted array of distinct elements, find the smallest missing element.
+
+
+WTD: Write a function to find the smallest missing element in a sorted array of distinct elements. Use binary search to locate the smallest missing number efficiently.
+
+
+Algorithm: Use binary search to find the smallest missing number.
+
+(e.g.: I/P: [0, 1, 2, 6, 9]; O/P: 3)

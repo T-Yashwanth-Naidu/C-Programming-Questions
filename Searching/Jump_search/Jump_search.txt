@@ -1,0 +1,7 @@
+Implement Jump Search
+
+WTD: Write a function to implement jump search on a sorted array. Use a fixed step size to skip ahead and then perform a linear search within the step.
+
+Algorithm: Jump search skips ahead by fixed steps and performs a linear search backward.
+
+(e.g.: I/P: [1, 3, 5, 7, 9], 7 ; O/P: 3)

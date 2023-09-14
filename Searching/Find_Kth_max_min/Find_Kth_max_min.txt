@@ -1,0 +1,9 @@
+Find the Kth maximum and minimum element in an array.
+
+
+WTD: Implement a function to find the Kth maximum and minimum element in an array. Employ QuickSelect, sorting, or a min-max heap method.
+
+
+Algorithm: Use QuickSelect, sorting, or min-max heap methods.
+
+(e.g.: I/P: [7, 10, 4, 3, 20, 15], K = 3; O/P: Max = 15, Min = 7)

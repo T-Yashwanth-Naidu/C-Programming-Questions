@@ -1,0 +1,7 @@
+Implement binary search recursively.
+
+WTD: Create a function that uses recursion to implement binary search on a sorted array. Your function should make a recursive call after halving the array based on the comparison with the target element.
+
+Algorithm: Recursive binary search reduces the problem size by half in each recursive call.
+
+(e.g.: I/P: [1, 2, 3, 4, 5], 3 ; O/P: 2)

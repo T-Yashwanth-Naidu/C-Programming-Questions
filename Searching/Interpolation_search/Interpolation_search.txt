@@ -1,0 +1,8 @@
+Implement interpolation search on a sorted array.
+
+
+WTD: Implement a function that employs interpolation search on a sorted array to find a target element. Use a formula to guess the probable position of the target element before conducting the search.
+
+Algorithm: Interpolation search tries to find the position of the target value by using a probing formula.
+
+(e.g.: I/P: [1, 2, 3, 4, 5], 4 ; O/P: 3)

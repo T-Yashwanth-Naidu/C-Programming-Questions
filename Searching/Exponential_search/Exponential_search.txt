@@ -1,0 +1,9 @@
+Use exponential search to find an element in a sorted array.
+
+
+WTD: Develop a function that uses exponential search to find a target element in a sorted array. First exponentially grow the range where the target is likely to reside, and then apply binary search within that range.
+
+
+Algorithm: Exponential search involves two steps: finding a range where the element is likely to be and applying binary search.
+
+(e.g.: I/P: [1, 2, 3, 4, 5], 3 ; O/P: 2)

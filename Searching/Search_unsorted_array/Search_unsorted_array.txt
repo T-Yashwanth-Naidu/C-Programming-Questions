@@ -1,0 +1,8 @@
+Search for an element in an unsorted array.
+
+
+WTD: Create a function that takes an unsorted array and a target element as input. Your task is to find the index of the target element using linear search. You can accomplish this by looping through the array and comparing each element with the target.
+
+Algorithm: Linear search sequentially checks each element until the desired element is found or the array ends.
+
+(e.g.: I/P: [5, 2, 9, 1, 5, 6], 9 ; O/P: 2)

@@ -1,0 +1,9 @@
+Given an array of n unique numbers except for one number which is repeating and one number which is missing, find them.
+
+
+WTD: Develop a function that identifies one number which is repeating and one which is missing in an array of n unique numbers. Leverage XOR bitwise operation or sorting techniques.
+
+
+Algorithm: Use XOR bitwise operation or sorting.
+
+(e.g.: I/P: [3, 1, 3]; O/P: Repeating = 3, Missing = 2)

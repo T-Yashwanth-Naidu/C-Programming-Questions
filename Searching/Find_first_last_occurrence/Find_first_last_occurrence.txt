@@ -1,0 +1,9 @@
+Find the first and last occurrence of an element in a sorted array.
+
+
+WTD: Implement a function that finds both the first and last occurrences of a given element in a sorted array. Use a modified binary search algorithm to find the initial and final positions.
+
+
+Algorithm: Modified binary search.
+
+(e.g.: I/P: [2, 2, 2, 2, 2], 2 ; O/P: First = 0, Last = 4)

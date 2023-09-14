@@ -1,0 +1,9 @@
+Find a peak element in an array.
+
+
+WTD: Write a function to find a peak element in a given array. Use binary search to find an element that is greater than its neighbors.
+
+
+Algorithm: Use binary search to find a peak element.
+
+(e.g.: I/P: [1, 3, 5, 4, 2] ; O/P: 5)

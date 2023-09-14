@@ -1,0 +1,9 @@
+Search an element in a sorted and rotated array.
+
+
+WTD: Develop a function that searches for an element in a sorted but rotated array. Use a modified binary search that accounts for the rotation.
+
+
+Algorithm: Modified binary search.
+
+(e.g.: I/P: [3, 4, 5, 1, 2], 1 ; O/P: 3)

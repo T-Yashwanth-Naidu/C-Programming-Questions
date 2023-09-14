@@ -1,0 +1,9 @@
+Find the majority element in an array, if it exists.
+
+
+WTD: Create a function to find the majority element in an array if it exists. Utilize the Boyer-Moore Voting Algorithm or a binary search on a sorted array.
+
+
+Algorithm: Use the Boyer-Moore Voting Algorithm or binary search on a sorted array.
+
+(e.g.: I/P: [3, 3, 4, 2, 4, 4, 2, 4, 4]; O/P: 4)

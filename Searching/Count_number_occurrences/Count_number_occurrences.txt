@@ -1,0 +1,9 @@
+Count occurrences of a number in a sorted array.
+
+
+WTD: Develop a function that counts the occurrences of a given element in a sorted array. Use a modified binary search to find the first and last occurrences, then calculate the count.
+
+
+Algorithm: Modified binary search to find the first and last occurrences.
+
+(e.g.: I/P: [2, 2, 2, 2, 2], 2 ; O/P: 5)

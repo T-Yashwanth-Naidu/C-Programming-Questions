@@ -1,0 +1,9 @@
+Given a sorted array of unknown length, find if an element exists.
+
+
+WTD: Write a function to find if an element exists in a sorted array of unknown length. Utilize exponential search to define a suitable range for binary search.
+
+
+Algorithm: Use exponential search to find the high boundary for binary search.
+
+(e.g.: I/P: [1, 2, 3, 4, 5, ....], Element = 5; O/P: 4)

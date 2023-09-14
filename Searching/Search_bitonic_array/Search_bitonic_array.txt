@@ -1,0 +1,9 @@
+Search for an element in a bitonic array (an array that is first increasing then decreasing).
+
+
+WTD: Implement a function to search for an element in a bitonic array (an array that first increases and then decreases). First find the peak element, then conduct a binary search on the increasing and decreasing parts.
+
+
+Algorithm: First find the peak element, then perform binary search on the increasing and decreasing parts.
+
+(e.g.: I/P: [1, 3, 8, 12, 4, 2]; Search Element: 8; O/P: 2)

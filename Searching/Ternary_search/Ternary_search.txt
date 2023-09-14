@@ -1,0 +1,8 @@
+Implement ternary search on a sorted array.
+
+
+WTD: Implement a function for performing ternary search on a sorted array. Divide the array into three equal parts and use two midpoints for comparison.
+
+Algorithm: Ternary search divides the array into three parts and compares the key with the two midpoints.
+
+(e.g.: I/P: [1, 2, 3, 4, 5], 1 ; O/P: 0)
