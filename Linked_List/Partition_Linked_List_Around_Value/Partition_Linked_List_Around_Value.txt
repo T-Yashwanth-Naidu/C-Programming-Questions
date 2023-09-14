@@ -1,0 +1,5 @@
+Partition a linked list around a given value.
+
+WTD: Traverse the linked list, creating two separate lists - one for values less than the partition value and another for values greater than or equal to the partition value. Finally, merge these lists.
+
+(e.g.: I/P: 1->4->3->2->5->2, Partition Value: 3; O/P: 1->2->2->4->3->5)

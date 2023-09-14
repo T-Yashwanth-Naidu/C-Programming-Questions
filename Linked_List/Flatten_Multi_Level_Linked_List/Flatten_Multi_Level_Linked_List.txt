@@ -1,0 +1,5 @@
+Flatten a multi-level linked list.
+
+WTD: Use a stack or recursion to flatten the list so that all nodes are at the same level.
+
+(e.g.: I/P: 1->2->3 (2 has child 4->5); O/P: 1->2->4->5->3)

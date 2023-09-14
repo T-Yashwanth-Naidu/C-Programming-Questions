@@ -1,0 +1,5 @@
+Find the common ancestor of two nodes in a binary tree represented as a doubly linked list.
+
+WTD: Traverse the binary tree represented as a doubly linked list and find the common ancestor of the given two nodes. Utilize parent pointers in the doubly linked list to backtrack.
+
+(e.g.: I/P: Nodes 6 and 9 in Binary Tree 4->5->6->7->8->9; O/P: 7)

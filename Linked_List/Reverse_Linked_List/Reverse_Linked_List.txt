@@ -1,0 +1,5 @@
+Reverse a linked list.
+
+WTD: Traverse the list while reversing the next pointers of each node.
+
+(e.g.: I/P: 1->2->3; O/P: 3->2->1)

@@ -1,0 +1,5 @@
+Find the length of a singly linked list.
+
+WTD: Traverse the list from head to tail, incrementing a counter to find its length.
+
+(e.g.: I/P: 1->2->3->4; O/P: 4)

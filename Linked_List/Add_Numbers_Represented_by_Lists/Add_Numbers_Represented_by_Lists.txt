@@ -1,0 +1,5 @@
+Add two numbers represented by linked lists.
+
+WTD: Traverse both lists, sum the corresponding nodes, and manage the carry.
+
+(e.g.: I/P: 2->4 & 5->6 (24 + 56); O/P: 8->0)

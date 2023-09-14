@@ -1,0 +1,5 @@
+Compare two strings represented as linked lists.
+
+WTD: Traverse both lists, comparing each node's value. If they are equal throughout, the lists are equal.
+
+(e.g.: I/P: 'a'->'b'->'c' & 'a'->'b'->'c'; O/P: Equal)

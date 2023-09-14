@@ -1,0 +1,5 @@
+Intersection point of two linked lists.
+
+WTD: Use two pointers, one for each list, and traverse to find the intersection point.
+
+(e.g.: I/P: 1->2->3 & 4->5->3; O/P: 3)

@@ -1,0 +1,5 @@
+Find nth node from end of a singly linked list.
+
+WTD: Use two pointers, move one n nodes ahead, then move both until the first one reaches the end.
+
+(e.g.: I/P: 1->2->3->4 (n=2); O/P: 3)

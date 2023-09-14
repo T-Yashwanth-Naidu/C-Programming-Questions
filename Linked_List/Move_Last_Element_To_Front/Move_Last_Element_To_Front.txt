@@ -1,0 +1,5 @@
+Move last element to the front of a given linked list.
+
+WTD: Find the last node and its previous node, change their pointers to move the last node to the front.
+
+(e.g.: I/P: 1->2->3->4; O/P: 4->1->2->3)

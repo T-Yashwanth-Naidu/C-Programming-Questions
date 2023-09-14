@@ -1,0 +1,5 @@
+Delete alternate nodes of a linked list.
+
+WTD: Traverse the list and remove every alternate node.
+
+(e.g.: I/P: 1->2->3->4; O/P: 1->3)

@@ -1,0 +1,5 @@
+Find Middle element of a singly linked list in one pass.
+
+WTD: Use two pointers, one moving twice as fast as the other, to find the middle element in a single pass.
+
+(e.g.: I/P: 1->2->3->4->5; O/P: 3)

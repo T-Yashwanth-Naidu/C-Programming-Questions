@@ -1,0 +1,5 @@
+Segregate even and odd nodes in a linked list.
+
+WTD: Use two pointers to rearrange nodes such that all even and odd elements are together.
+
+(e.g.: I/P: 1->2->3->4; O/P: 2->4->1->3)

@@ -1,0 +1,5 @@
+Reverse a singly linked list without recursion.
+
+WTD: Use iterative method to reverse the next pointers of each node.
+
+(e.g.: I/P: 1->2->3; O/P: 3->2->1)

@@ -1,0 +1,5 @@
+Pairwise swap elements of a linked list.
+
+WTD: Swap every two adjacent nodes by adjusting their pointers.
+
+(e.g.: I/P: 1->2->3->4; O/P: 2->1->4->3)

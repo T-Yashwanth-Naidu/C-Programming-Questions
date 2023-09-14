@@ -1,0 +1,5 @@
+Check if a given linked list contains a cycle and what would be the starting node?
+
+WTD: Use Floyd’s cycle-finding algorithm to detect the cycle and then find its starting node.
+
+(e.g.: I/P: 1->2->3 (3 points back to 1); O/P: True)

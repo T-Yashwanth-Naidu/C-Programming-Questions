@@ -1,0 +1,5 @@
+Find sum of two linked list using stack.
+
+WTD: Use two stacks to hold the numbers from each list, then pop and sum them, storing the result in a new list.
+
+(e.g.: I/P: 2->4 & 5->6 (24 + 56); O/P: 8->0)

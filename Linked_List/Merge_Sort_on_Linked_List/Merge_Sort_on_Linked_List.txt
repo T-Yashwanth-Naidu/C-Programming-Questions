@@ -1,0 +1,5 @@
+Merge sort on a linked list.
+
+WTD: Implement the Merge Sort algorithm on a linked list, splitting the list into halves and merging them back in sorted order.
+
+(e.g.: I/P: 3->1->2; O/P: 1->2->3)

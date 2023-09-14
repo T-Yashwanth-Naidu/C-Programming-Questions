@@ -1,0 +1,5 @@
+Remove duplicate nodes in an unsorted linked list.
+
+WTD: Use a hash table to record the occurrence of each node while traversing the list to remove duplicates.
+
+(e.g.: I/P: 1->2->2->3; O/P: 1->2->3)

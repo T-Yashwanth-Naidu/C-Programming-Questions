@@ -1,0 +1,5 @@
+Convert a binary number represented by a linked list to an integer.
+
+WTD: Traverse the linked list and convert the binary number represented by the linked list nodes to an integer. Use bit manipulation for the conversion.
+
+(e.g.: I/P: 1->0->1; O/P: 5)

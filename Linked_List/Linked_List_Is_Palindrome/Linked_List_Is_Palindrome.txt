@@ -1,0 +1,5 @@
+Determine if a linked list is a palindrome.
+
+WTD: Use a slow and fast pointer to find the middle of the list. Reverse the second half and compare it with the first half to determine if the linked list is a palindrome.
+
+(e.g.: I/P: 1->2->2->1; O/P: True)

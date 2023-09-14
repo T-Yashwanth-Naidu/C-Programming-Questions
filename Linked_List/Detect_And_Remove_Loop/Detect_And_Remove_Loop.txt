@@ -1,0 +1,5 @@
+Detect and remove loop in a linked list.
+
+WTD: Use Floyd's algorithm to detect the loop and then remove it by setting the next pointer of the last node in the loop to NULL.
+
+(e.g.: I/P: 1->2->3 (3 points back to 1); O/P: 1->2->3)

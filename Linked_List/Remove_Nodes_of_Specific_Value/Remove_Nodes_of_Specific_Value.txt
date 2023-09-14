@@ -1,0 +1,5 @@
+Remove all nodes in a linked list that have a specific value.
+
+WTD: Traverse the linked list and remove any node that has a value matching the specified value. Make sure to properly update the next pointers and free any removed nodes.
+
+(e.g.: I/P: 1->2->6->3->4->5->6, Value to Remove: 6; O/P: 1->2->3->4->5)

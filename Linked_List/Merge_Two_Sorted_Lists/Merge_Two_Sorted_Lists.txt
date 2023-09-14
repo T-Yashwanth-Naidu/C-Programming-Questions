@@ -1,0 +1,5 @@
+Merge two sorted linked lists.
+
+WTD: Use a temporary dummy node to hold the sorted list, compare each node and attach the smaller one to the dummy.
+
+(e.g.: I/P: 1->3->5 & 2->4->6; O/P: 1->2->3->4->5->6)

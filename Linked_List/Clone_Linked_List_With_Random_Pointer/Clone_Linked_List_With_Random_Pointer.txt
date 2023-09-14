@@ -1,0 +1,5 @@
+Clone a linked list with next and random pointer.
+
+WTD: Create a deep copy of the linked list including the random pointers using a hash table to map original nodes to their copies.
+
+(e.g.: I/P: 1->2->3 (random pointers set randomly); O/P: Cloned list with same structure and random pointers)
