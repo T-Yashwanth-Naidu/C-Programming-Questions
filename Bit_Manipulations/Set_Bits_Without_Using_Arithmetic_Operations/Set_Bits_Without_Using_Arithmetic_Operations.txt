@@ -1,0 +1,5 @@
+Set Bits Without Using Arithmetic Operations. Implement a function that sets the first n bits of a byte to 1.
+
+WTD: You are given an integer n. Use bitwise operations to set the first n bits of an 8-bit number to 1 while setting the remaining bits to 0. You cannot use arithmetic operations like addition or multiplication.
+
+(e.g.: I/P:  n=4; O/P: 0b11110000)
