@@ -79,38 +79,7 @@ int ispalindrome(node* head){
     return 1;
 
 }
-
-node *reverse(node *head){                     
-    node *p, *q,*a;
-    node *x = head;
-    node *y = head;
-    int i = 1;
-     
-    for(p = head; p != NULL; p = p->ptr){           
-
-        if(p == head){                               
-            q = (node *)malloc(sizeof(node));
-            q->ptr = NULL;
-        }
-        else{                                        
-            q = (node *)malloc(sizeof(node));
-            q->ptr = a;                           
-        }
-
-        q->data = p->data;
-        a = q;
-        
-    }
-    while(x != NULL){
-        x = x->ptr;
-        free(y);
-        y = x;
-    }
-    
-    return q;
-}
-
-
+ 
 int main(){
     node* head = NULL;
     int data[] = {1,2,2,2,2,1};
