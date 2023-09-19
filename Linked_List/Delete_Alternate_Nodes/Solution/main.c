@@ -38,9 +38,9 @@ node* deletenode(node*head){
     node* p = head;
     node* temp;
     while(p != NULL && p->ptr != NULL){
-        temp = p->ptr;
+        //temp = p->ptr;
         p->ptr = p->ptr->ptr;
-        free(temp);
+        //free(temp);
         p = p->ptr;
     }
     return head;
