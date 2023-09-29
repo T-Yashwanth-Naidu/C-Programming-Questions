@@ -13,18 +13,21 @@ author : Vaaarad07
 #include <stdio.h>
 
 int* twosum(int arr[], int sum, int size){
-    int* ptr1;
-    int* ptr2;
-    static int result[3] = {-1,-1,0};
-    for(int i=0;i<size;i++){
-        ptr1 = &arr[i];
-        for(int j=0;j<size;j++){
-            ptr2 = &arr[j];
-            if((*ptr1 + *ptr2) == sum){
-                result[0] = *ptr1;
-                result[1] = *ptr2;
-                result[2] = 1;;
-            }
+   int *result = (int*) malloc(2*sizeof(int));
+    result[0] = result[1] = -1;
+    int leftIndex = 0, rightIndex = size-1;
+    while(leftIndex < rightIndex){
+        int elemSum = arr[leftIndex] + arr[rightIndex];
+        if(elemSum == sum){
+            result[0] = arr[leftIndex];
+            result[1] = arr[rightIndex];
+            break;
+        }
+        else if(elemSum > sum){
+            rightIndex--;
+        }
+        else{
+            leftIndex++;
         }
     }
     return result;
@@ -37,7 +40,7 @@ int main(){
     int size = sizeof(arr) / sizeof(arr[0]);
     int* result;
     result = twosum(arr, sum, size);
-    if(result[2]){
+    if(result[0] != -1){
         printf("Result is %d & %d\n\n",result[0],result[1]);
     }
     else{
