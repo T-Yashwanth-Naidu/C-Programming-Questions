@@ -223,7 +223,7 @@ bool pq_peek_max(const PriorityQueue *pq, int *out) {
     return false;    // nothing to peek
   if (out) // optional out: caller may pass NULL to just query existence
     *out = pq->data[0]; // root of the heap holds the maximum
-  return true;          // success
+  return true;
 }
 
 /**
