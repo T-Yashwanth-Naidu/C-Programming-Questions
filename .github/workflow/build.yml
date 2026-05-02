@@ -1,4 +1,4 @@
-name: Build C and C++ Files
+name: Build and Run C/C++ Files
 
 on:
   push:
@@ -13,23 +13,81 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup GCC problem matcher
+        uses: ammaraskar/gcc-problem-matcher@master
+
       - name: Install build tools
         run: sudo apt-get update && sudo apt-get install -y gcc g++ make cmake
 
-      - name: Compile single-file C solutions
+      - name: Create output directory
+        run: mkdir -p /tmp/program_outputs
+
+      - name: Compile and run single-file C solutions
         run: |
-          set -e
+          set +e  # Do not exit on first failure
           find . -name "*.c" -type f -not -path "*/solutions/*" | while read -r file; do
-            echo "Compiling $file with gcc"
-            gcc -Wall -Wextra -std=c17 -c "$file" -o /tmp/test.o || exit 1
+            echo "::group::$file"
+            output_name=$(echo "$file" | sed 's|/|_|g' | sed 's|^\._||')
+            output_file="/tmp/program_outputs/${output_name}.txt"
+            
+            # Try to build a runnable binary
+            if gcc -Wall -Wextra -std=c17 -lm -lpthread "$file" -o /tmp/test_binary 2>&1; then
+              echo "Build succeeded. Running:"
+              echo "----------------------------------------"
+              timeout 10s /tmp/test_binary > "$output_file" 2>&1
+              exit_code=$?
+              cat "$output_file"
+              echo "----------------------------------------"
+              if [ $exit_code -eq 124 ]; then
+                echo "(Program timed out after 10 seconds)"
+              elif [ $exit_code -ne 0 ]; then
+                echo "(Program exited with code $exit_code)"
+              fi
+            else
+              # Fallback: compile only (likely a library file without main)
+              echo "Linking failed, trying compile-only:"
+              if gcc -Wall -Wextra -std=c17 -c "$file" -o /tmp/test.o 2>&1; then
+                echo "(Compiled as library - no main function)"
+              else
+                echo "::error file=$file::Compilation failed"
+                echo "::endgroup::"
+                exit 1
+              fi
+            fi
+            echo "::endgroup::"
           done
 
-      - name: Compile single-file C++ solutions
+      - name: Compile and run single-file C++ solutions
         run: |
-          set -e
+          set +e
           find . \( -name "*.cpp" -o -name "*.cc" -o -name "*.cxx" \) -type f -not -path "*/solutions/*" | while read -r file; do
-            echo "Compiling $file with g++"
-            g++ -Wall -Wextra -std=c++17 -c "$file" -o /tmp/test.o || exit 1
+            echo "::group::$file"
+            output_name=$(echo "$file" | sed 's|/|_|g' | sed 's|^\._||')
+            output_file="/tmp/program_outputs/${output_name}.txt"
+            
+            if g++ -Wall -Wextra -std=c++17 -lm -lpthread "$file" -o /tmp/test_binary 2>&1; then
+              echo "Build succeeded. Running:"
+              echo "----------------------------------------"
+              timeout 10s /tmp/test_binary > "$output_file" 2>&1
+              exit_code=$?
+              cat "$output_file"
+              echo "----------------------------------------"
+              if [ $exit_code -eq 124 ]; then
+                echo "(Program timed out after 10 seconds)"
+              elif [ $exit_code -ne 0 ]; then
+                echo "(Program exited with code $exit_code)"
+              fi
+            else
+              echo "Linking failed, trying compile-only:"
+              if g++ -Wall -Wextra -std=c++17 -c "$file" -o /tmp/test.o 2>&1; then
+                echo "(Compiled as library - no main function)"
+              else
+                echo "::error file=$file::Compilation failed"
+                echo "::endgroup::"
+                exit 1
+              fi
+            fi
+            echo "::endgroup::"
           done
 
       - name: Build multi-file solutions with Makefile or CMake
@@ -37,11 +95,13 @@ jobs:
           set -e
           find . -path "*/solutions/*" -type d | while read -r dir; do
             if [ -f "$dir/Makefile" ]; then
-              echo "Building $dir with make"
+              echo "::group::Building $dir with make"
               (cd "$dir" && make) || exit 1
+              echo "::endgroup::"
             elif [ -f "$dir/CMakeLists.txt" ]; then
-              echo "Building $dir with cmake"
+              echo "::group::Building $dir with cmake"
               (cd "$dir" && cmake . && make) || exit 1
+              echo "::endgroup::"
             fi
           done
 
@@ -53,12 +113,22 @@ jobs:
               c_files=$(find "$dir" -maxdepth 1 -name "*.c" -type f)
               cpp_files=$(find "$dir" -maxdepth 1 \( -name "*.cpp" -o -name "*.cc" -o -name "*.cxx" \) -type f)
               if [ -n "$c_files" ]; then
-                echo "Compiling $dir as multi-file C project"
+                echo "::group::Compiling $dir as multi-file C project"
                 gcc -Wall -Wextra -std=c17 -lm -lpthread $c_files -o /tmp/test_binary || exit 1
+                echo "::endgroup::"
               fi
               if [ -n "$cpp_files" ]; then
-                echo "Compiling $dir as multi-file C++ project"
+                echo "::group::Compiling $dir as multi-file C++ project"
                 g++ -Wall -Wextra -std=c++17 -lm -lpthread $cpp_files -o /tmp/test_binary || exit 1
+                echo "::endgroup::"
               fi
             fi
           done
+
+      - name: Upload program outputs as artifact
+        if: always()  # Upload even if some compilations failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: program-outputs
+          path: /tmp/program_outputs/
+          retention-days: 10
