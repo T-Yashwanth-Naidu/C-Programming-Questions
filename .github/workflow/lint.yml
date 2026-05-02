@@ -1,0 +1,29 @@
+name: Code Quality (Informational)
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  cppcheck:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install cppcheck
+        run: sudo apt-get update && sudo apt-get install -y cppcheck
+
+      - name: Run cppcheck
+        continue-on-error: true
+        run: |
+          echo "::notice::cppcheck output is informational and does not block merging"
+          find . \( -name "*.c" -o -name "*.cpp" -o -name "*.cc" \) -type f | while read -r file; do
+            echo "::group::$file"
+            cppcheck --enable=warning,style,performance,portability \
+                     --suppress=missingIncludeSystem \
+                     --quiet \
+                     "$file" || true
+            echo "::endgroup::"
+          done

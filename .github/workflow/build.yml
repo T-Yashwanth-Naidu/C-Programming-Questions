@@ -1,0 +1,64 @@
+name: Build C and C++ Files
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install build tools
+        run: sudo apt-get update && sudo apt-get install -y gcc g++ make cmake
+
+      - name: Compile single-file C solutions
+        run: |
+          set -e
+          find . -name "*.c" -type f -not -path "*/solutions/*" | while read -r file; do
+            echo "Compiling $file with gcc"
+            gcc -Wall -Wextra -std=c17 -c "$file" -o /tmp/test.o || exit 1
+          done
+
+      - name: Compile single-file C++ solutions
+        run: |
+          set -e
+          find . \( -name "*.cpp" -o -name "*.cc" -o -name "*.cxx" \) -type f -not -path "*/solutions/*" | while read -r file; do
+            echo "Compiling $file with g++"
+            g++ -Wall -Wextra -std=c++17 -c "$file" -o /tmp/test.o || exit 1
+          done
+
+      - name: Build multi-file solutions with Makefile or CMake
+        run: |
+          set -e
+          find . -path "*/solutions/*" -type d | while read -r dir; do
+            if [ -f "$dir/Makefile" ]; then
+              echo "Building $dir with make"
+              (cd "$dir" && make) || exit 1
+            elif [ -f "$dir/CMakeLists.txt" ]; then
+              echo "Building $dir with cmake"
+              (cd "$dir" && cmake . && make) || exit 1
+            fi
+          done
+
+      - name: Build multi-file solutions without build system
+        run: |
+          set -e
+          find . -path "*/solutions/*" -type d | while read -r dir; do
+            if [ ! -f "$dir/Makefile" ] && [ ! -f "$dir/CMakeLists.txt" ]; then
+              c_files=$(find "$dir" -maxdepth 1 -name "*.c" -type f)
+              cpp_files=$(find "$dir" -maxdepth 1 \( -name "*.cpp" -o -name "*.cc" -o -name "*.cxx" \) -type f)
+              if [ -n "$c_files" ]; then
+                echo "Compiling $dir as multi-file C project"
+                gcc -Wall -Wextra -std=c17 -lm -lpthread $c_files -o /tmp/test_binary || exit 1
+              fi
+              if [ -n "$cpp_files" ]; then
+                echo "Compiling $dir as multi-file C++ project"
+                g++ -Wall -Wextra -std=c++17 -lm -lpthread $cpp_files -o /tmp/test_binary || exit 1
+              fi
+            fi
+          done
