@@ -9,6 +9,7 @@ Very Basic Solution
 #include <stdint.h>
 #include <stdio.h>
 
+int unused_var;
 void print_binary(uint8_t value) {
 
   for (int i = 7; i >= 0; i--) {
