@@ -20,7 +20,7 @@ Approach:
 
 int main() {
 
-  int array[] = {4, 1, 2, 1, 2};
+  const int array[] = {4, 1, 2, 1, 2};
   int result_var = 0;
 
   for (int i = 0; i < 5; i++) {
