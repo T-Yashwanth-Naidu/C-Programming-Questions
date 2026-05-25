@@ -55,7 +55,7 @@ jobs:
           done
 
       - name: Generate report (PR comment + workflow summary)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'pull_request_target'
         uses: actions/github-script@v7
         with:
           script: |
