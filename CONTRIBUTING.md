@@ -63,7 +63,11 @@ This keeps the top level clean while letting contributors structure  larger solu
 
   This makes ownership clear and lets readers find your other work.
 
-- **Explain your approach (encouraged but optional).** A brief header comment describing the problem, your algorithm, and an example helps other learners understand your thinking. See `Arrays/Single_Number/Solution/yashwanth_solution.c` for a more detailed example, but anything from a one-line summary to a full writeup is welcome.
+- **Explain your approach (encouraged but optional).** A brief header comment describing the problem, your algorithm, and an example helps other learners understand your thinking. For reference, see:
+  - `Bit_Manipulations/Single_Number_in_Array/Solution/yash_basic_solution.c` for a minimal, beginner-friendly format
+  - `Bit_Manipulations/Single_Number_in_Array/Solution/yash_advanced_solution.c` for a more detailed style with documented preconditions, error handling, and a test harness
+  
+  Anything from a one-line summary to a full writeup is welcome. Match the depth to what you actually want to communicate.
 
 - **Style and structure.** Code your solution however you like. Different approaches teach different things, and seeing varied styles is useful for learners. Some explanation in comments is appreciated so others can follow your thinking, but how much and in what form is up to you.
 
