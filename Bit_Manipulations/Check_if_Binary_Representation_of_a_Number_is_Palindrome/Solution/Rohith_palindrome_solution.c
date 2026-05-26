@@ -1,4 +1,4 @@
- // @Author: Rohith B Narasimhamurthy (https://github.com/rohith-bn)
+// @Author: Rohith B Narasimhamurthy (https://github.com/rohith-bn)
 
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int check_palindrome(int num) {
 
 // helper funtion to visualize the binary representation of a number (not required for the main functionality)
 
-void print_binary(int num) {
+void print_binary(unsigned int num) {
 
     if (num == 0) {
         printf("0");
@@ -30,13 +30,13 @@ void print_binary(int num) {
     int started = 0; // Flag to indicate when to start printing bits
 
     for (int i = 31; i >= 0; i--) {
-        int bit = (num >> i) & 1; // Extract the i-th bit of num
+        unsigned int bit = (num >> i) & 1u; // Extract the i-th bit of num
         // num & (1u << i) can also be used to extract the i-th bit, but the above method is more concise and efficient
         if (bit) {
             started = 1; // Set the flag to start printing when we encounter the first 1
         }
         if (started) {
-            printf("%d", bit); // Print the bit if we've started printing
+            printf("%u", bit); // Print the bit if we've started printing
         }
     }
 }
@@ -51,7 +51,7 @@ int main(void) {
     scanf("%d", &num); // Read the input number
 
     printf("Binary representation of %d: ", num);
-    print_binary(num); // Print the binary representation of the input number
+    print_binary((unsigned int)num); // Print the binary representation of the input number
     printf("\n");
 
     // Call the function check_palindrome to check if the binary representation is a palindrome

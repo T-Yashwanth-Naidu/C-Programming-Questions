@@ -1,11 +1,30 @@
-
-
-// Check if a number is a multiple of 3 using bit manipulation
-
-// @Author: Rohith B Narasimhamurthy (https://github.com/rohith-bn)
+/*
+ * Check if a number is a multiple of 3 using bit manipulation.
+ *
+ * @Author: Rohith B Narasimhamurthy (https://github.com/rohith-bn)
+ *
+ * Logic:
+ * Binary place values have repeating remainders when divided by 3:
+ *
+ *   value:      16   8   4   2   1
+ *   value % 3:   1   2   1   2   1
+ *
+ * Since 2 mod 3 behaves like -1 mod 3, those positions can be treated as:
+ *
+ *   value:      16   8   4   2   1
+ *   sign:       +1  -1  +1  -1  +1
+ *
+ * So set bits in even positions from the right contribute +1, and set bits in
+ * odd positions contribute -1. If the absolute difference between those counts
+ * eventually reduces to 0, the original number is a multiple of 3.
+ *
+ * Examples:
+ *   9  = 1001: 8 contributes -1 and 1 contributes +1, total 0.
+ *   10 = 1010: 8 contributes -1 and 2 contributes -1, total -2.
+ *   21 = 10101: 16, 4, and 1 contribute +1 each, total 3, which reduces to 0.
+ */
 
 #include <stdio.h>
-// Function to check if a number is a multiple of 3
 
 int is_multiple_of_3(int num) {
     // Handle negative numbers by converting them to positive
@@ -13,12 +32,12 @@ int is_multiple_of_3(int num) {
         num = -num;
     }
 
-    //if the result of first iteration, and diffrence of even and odd is not 0 , then we need this while loop.
+    // Keep reducing the difference until the result is either 0 or 1.
     while (num > 1) {
         int even_count = 0;
         int odd_count = 0;
 
-    // Count the number of set bits in even and odd positions
+        // Count the number of set bits in even and odd positions.
         while (num > 0) {
             if (num & 1) {
                 even_count++;
@@ -38,20 +57,9 @@ int is_multiple_of_3(int num) {
             num = -num;
         }
     }
-// If the final result is 0, then the original number is a multiple of 3
+    // If the final result is 0, then the original number is a multiple of 3.
     return num == 0;
 }
-
-// after finding the difference between the count of even and odd bits,
-//  we can check if the result is divisible by 3 or not.
-// we can use modulo operator to check if the result
-
-// we dont want to use modulo operator we can use recursion.
-
-// this method avoids recursion and uses a loop to check.
-// which is more efficient than the recursive approach
-
-// logic behid this is explained in the readme file of this problem.
 
 int main(void) {
     int num;
