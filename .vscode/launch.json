@@ -2,24 +2,30 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug C",
+            "name": "Debug current file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
-            "preLaunchTask": "C/C++: gcc.exe build active file",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "windows": {
+                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
+            "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "gdb.exe",
+            "osx": {
+                "MIMode": "lldb"
+            },
             "setupCommands": [
                 {
-                    "description": "Enable pretty-printing",
+                    "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
-            ]
+            ],
+            "preLaunchTask": "Build (auto-detect)"
         }
     ]
 }

@@ -6,7 +6,13 @@ This repo is meant for learners at all levels - beginners, intermediates, and ex
 
 ## Repository Structure
 
-Each topic has its own folder (Arrays, Bit_Manipulations, Linked_List, etc.). New problems should go into the relevant folder. If a topic does not exist yet, feel free to create a new folder for it.
+Each topic has its own folder (Arrays, Bit_Manipulations, Linked_List, etc.). Inside each topic, individual problems each have their own folder containing:
+
+- A problem statement (in the folder's README or comments)
+- A `Solution/` subdirectory where contributor solutions live
+
+New problems should go into the relevant topic folder. If a topic does not exist yet, feel free to create a new folder for it.
+
 
 ## Submitting Changes
 
@@ -17,7 +23,10 @@ Each topic has its own folder (Arrays, Bit_Manipulations, Linked_List, etc.). Ne
 4. Push your branch to your fork.
 5. Open a pull request against `main`.
 
-All pull requests require at least one approving review before merging.
+All pull requests require at least one approving review before merging. Two automated checks will run on your PR:
+
+- **Build and Run** - compiles your code with `gcc -std=c17` or `g++ -std=c++17` and runs it. Must pass for the PR to merge.
+- **Code Quality (Informational)** - runs cppcheck and posts suggestions as a comment. Informational only - does not block merging. Apply what makes sense, ignore what does not.  
 
 ## Solution Files
 
@@ -40,7 +49,7 @@ Bit-Manipulations/
 
 This keeps the top level clean while letting contributors structure  larger solutions however they prefer.
 
-- **Author header.** Include an author header at the top of your main file in this format:
+- **Author header.** Include an author header at the top of your `.c` or `.cpp` source file in this format:
 
 ```c
   // @Author: Your Name (Your GitHub URL)
@@ -54,7 +63,30 @@ This keeps the top level clean while letting contributors structure  larger solu
 
   This makes ownership clear and lets readers find your other work.
 
+- **Explain your approach (encouraged but optional).** A brief header comment describing the problem, your algorithm, and an example helps other learners understand your thinking. For reference, see:
+  - `Bit_Manipulations/Single_Number_in_Array/Solution/yash_basic_solution.c` for a minimal, beginner-friendly format
+  - `Bit_Manipulations/Single_Number_in_Array/Solution/yash_advanced_solution.c` for a more detailed style with documented preconditions, error handling, and a test harness
+  
+  Anything from a one-line summary to a full writeup is welcome. Match the depth to what you actually want to communicate.
+
 - **Style and structure.** Code your solution however you like. Different approaches teach different things, and seeing varied styles is useful for learners. Some explanation in comments is appreciated so others can follow your thinking, but how much and in what form is up to you.
+
+## VS Code Setup (Optional)
+
+This repo ships with a minimal `.vscode/` configuration that works on Windows, Mac, Linux, and WSL:
+
+- Open the repo in VS Code
+- Install the recommended C/C++ extension when prompted
+- Open any `.c` or `.cpp` file and press F5 to build and debug
+
+Prerequisites:
+
+- **Linux / WSL / Mac**: `gcc` and `gdb` (or `lldb` on Mac). Available through standard developer tools.
+- **Windows native**: MinGW-w64 or msys2 with `gcc` and `gdb` on PATH. F5 auto-build assumes the default cmd terminal; PowerShell users may need to invoke build tasks manually or switch to git-bash.
+
+If you use a different editor, ignore the `.vscode/` folder. The repo does not require VS Code in any way - it is purely a convenience for those who want it.
+
+For multi-file solutions with a Makefile, F5 will run `make` automatically. Custom Makefile output names may require running `make` and `gdb`/`lldb` from the terminal directly.
 
 ## Pull Request Guidelines
 

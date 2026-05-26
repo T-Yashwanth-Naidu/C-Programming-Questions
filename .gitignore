@@ -30,4 +30,32 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+### Build outputs ###
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+### Debug symbols ###
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+### Editor / IDE - JetBrains ###
+.idea/
+
+### OS junk ###
+.DS_Store
+Thumbs.db
